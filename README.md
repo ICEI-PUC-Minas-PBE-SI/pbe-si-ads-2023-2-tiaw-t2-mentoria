@@ -1,4 +1,4 @@
-## DESENVOLVIMENTO DE UM SOFTWARE WEB PARA GERENCIAMENTO DE MENTORIAS DA PUC MINAS
+## Desenvolvimento de um software web para o gerenciamento de mentorias na PUC Minas
 O projeto visa desenvolver um software web para melhorar a gestão do processo de mentoria, focando na comunicação entre mentores e mentorados, incluindo a seleção do mentor e a definição dos tópicos a serem abordados. Os objetivos incluem a pesquisa preliminar para identificar desafios da mentoria, análise de requisitos, criação da aplicação web para agendar e gerenciar sessões de mentoria, além do uso de técnicas de desenvolvimento web para criar uma interface eficaz. O propósito é simplificar o processo de mentoria, promovendo a interação entre as partes envolvidas.
 
 ## Alunos:
