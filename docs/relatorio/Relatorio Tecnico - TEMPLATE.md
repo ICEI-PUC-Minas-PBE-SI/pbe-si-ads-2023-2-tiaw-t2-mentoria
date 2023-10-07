@@ -96,8 +96,9 @@ O software web de mentorias para instituições educacionais atende a diversos p
 > realizar a especificações do projeto
 
 ## Personas e Mapas de Empatia
+![Exemplo de UserFlow](images/userflow.jpg)
+![Exemplo de UserFlow](images/ME_Maria_Gabriela.png)
 
-(images/ME_Maria_Gabriela.png)
 ## Histórias de Usuários
 
 HISTÓRIAS DE VIDA:
