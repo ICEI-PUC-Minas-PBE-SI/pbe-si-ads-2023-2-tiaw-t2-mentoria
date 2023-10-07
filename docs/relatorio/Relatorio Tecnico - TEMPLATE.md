@@ -119,14 +119,25 @@ Rafaela Alves Santos é estudante do curso de Farmácia na PUC Minas. Ela tem a 
 
 Com base na análise das personas e nos mapas de empatia, foram identificadas as seguintes pontos a serem desenvolvidas:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`       |PARA ... `MOTIVO/VALOR`                               |
+|MARIA GABRIELA      | QUERO/PRECISO                            |PARA                                                  |
+|--------------------|------------------------------------------|------------------------------------------------------|
+|Usuário do sistema  | Agendar as mentorias                     | Conciliar as agendas                                 |
+|Usuário do sistema  | Mentorias na modalidade Remota/Presencial| Flexibilidade de atendimento                         |
+
+|MATEUS JUNIOR       | QUERO/PRECISO                            |PARA                                                  |
+|--------------------|------------------------------------------|------------------------------------------------------|
+|Usuário do sistema  | Agendar as mentorias                     | Conciliar as agendas                                 |
+|Usuário do sistema  | Mentorias na modalidade Remota/Presencial| Flexibilidade de atendimento                         |
+|Usuário do sistema  | Sistema de Feedback                      | Criticas em relação as disponibilidades dos mentores |
+
+
+|RAFAELA ALVES       | QUERO/PRECISO                            |PARA                                                  |
 |--------------------|------------------------------------------|------------------------------------------------------|
 |Usuário do sistema  | Agendar as mentorias                     | Conciliar as agendas                                 |
 |Usuário do sistema  | Comunicar com o mentor                   | Sanar duvidas                                        |
 |Usuário do sistema  | Mentorias na modalidade Remota/Presencial| Flexibilidade de atendimento                         |
 |Usuário do sistema  | Sistema de Feedback                      | Criticas em relação as disponibilidades dos mentores |
 |Usuário do sistema  | Suporte ao Sistema                       | Auxiliar na utilização do novo sistema               |
-
 
 
 
