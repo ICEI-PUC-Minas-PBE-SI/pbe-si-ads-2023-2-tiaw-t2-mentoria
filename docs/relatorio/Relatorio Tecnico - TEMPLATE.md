@@ -8,7 +8,7 @@ Faculdades: Sistemas de Informação e Análise e Desenvolvimento de Sistemas
 
 Desenvolvedores: 
 
-Arthur Alves Oliveira SIlva
+Arthur Alves Oliveira Silva
 
 Alessandro Gomes Pereira
 
