@@ -6,7 +6,9 @@ Faculdades: Sistemas de Informação e Análise e Desenvolvimento de Sistemas
 
 ## Participantes
 
-Desenvolvedores:      
+Desenvolvedores: 
+Arthur Alves Oliveira SIlva
+
 Alessandro Gomes Pereira
 
 Antônio Guilherme Guimarães Santos de Menezes
