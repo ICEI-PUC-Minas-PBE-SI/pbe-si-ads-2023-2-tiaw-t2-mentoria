@@ -117,7 +117,7 @@ Rafaela Alves Santos é estudante do curso de Farmácia na PUC Minas. Ela tem a 
 
 --------------------------------------------------------------------------------------------------------------------
 
-Com base na análise das personas e nos mapas de empatia, foram identificadas as seguintes pontos a serem desenvolvidas:
+Com base nas análises das personas e nos mapas de empatia, foram identificados os seguintes pontos a serem desenvolvidos:
 
 |MARIA GABRIELA      | QUERO/PRECISO                            |PARA                                                  |
 |--------------------|------------------------------------------|------------------------------------------------------|
