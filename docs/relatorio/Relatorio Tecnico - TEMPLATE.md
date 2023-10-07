@@ -96,7 +96,7 @@ O software web de mentorias para instituições educacionais atende a diversos p
 > realizar a especificações do projeto
 
 ## Personas e Mapas de Empatia
-!(images/ME_Maria_Gabriela.png)
+![ME_Maria_Gabriela](images/ME_Maria_Gabriela.png)
 
 ## Histórias de Usuários
 
