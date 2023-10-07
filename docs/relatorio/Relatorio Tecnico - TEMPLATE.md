@@ -92,12 +92,6 @@ O software web de mentorias para instituições educacionais atende a diversos p
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
-
 ## Personas e Mapas de Empatia
 ![PS_Maria_Gabriela](images/PS_Maria_Gabriela.png)
 ![ME_Maria_Gabriela](images/ME_Maria_Gabriela.png)
