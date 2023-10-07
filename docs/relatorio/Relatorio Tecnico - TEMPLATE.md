@@ -191,12 +191,12 @@ Por último, nosso site incluirá uma lista de atividades disponibilizadas pelos
 
 ## User Flow
 
-![User_Flow](imagesUser_Flow.png)
+![User_Flow](images/User_Flow.png)
 
 
 ## Wireframes
 
-![Wireframe](Wireframe.png)
+![Wireframe](images/Wireframe.png)
 
 # Metodologia
 
