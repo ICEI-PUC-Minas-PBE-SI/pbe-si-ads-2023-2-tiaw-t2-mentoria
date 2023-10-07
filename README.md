@@ -3,9 +3,13 @@ O projeto visa desenvolver um software web para melhorar a gestão do processo d
 
 ## Alunos:
 Arthur Alves Oliveira SIlva
+
 Alessandro Gomes Pereira
+
 Antônio Guilherme Guimarães Santos de Menezes
+
 Marlon Magalhaes Carvalho
+
 Samuel Correia Nunes
 
 
