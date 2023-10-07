@@ -97,7 +97,7 @@ O software web de mentorias para instituições educacionais atende a diversos p
 
 ## Personas e Mapas de Empatia
 
-(imaages/../images/ME_Maria_Gabriela.png)
+[(imaages/../images/ME_Maria_Gabriela.png)](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-mentoria/blob/8ad784a48818cb2c627d85d3afc64bf0c53d8992/docs/relatorio/images/ME_Maria_Gabriela.png)
 ## Histórias de Usuários
 
 HISTÓRIAS DE VIDA:
