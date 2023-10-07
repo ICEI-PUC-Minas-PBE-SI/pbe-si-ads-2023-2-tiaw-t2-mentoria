@@ -107,8 +107,6 @@ O software web de mentorias para instituições educacionais atende a diversos p
 
 
 ## Histórias de Usuários
-
-HISTÓRIAS DE VIDA:
 --------------------------------------------------------------------------------------------------------------------
 Maria Gabriela Amorim é estudante do curso de Psicologia na PUC Minas e leva uma vida extremamente ocupada. Ela enfrenta desafios consideráveis na tentativa de equilibrar seus horários de estudo com seus compromissos pessoais e profissionais. Durante nossa entrevista, ela destacou a dificuldade que enfrenta ao buscar suporte para as disciplinas em que encontra obstáculos. Isso ocorre, em grande parte, devido à maioria das sessões de monitoria ocorrerem durante as tardes e, frequentemente, de forma presencial. No entanto, devido à sua residência distante e ao seu estágio em uma grande empresa, Gabriela não tem a flexibilidade de comparecer a essas mentorias.
 Ela está ansiosa por uma solução que lhe permita harmonizar sua agenda com a disponibilidade das mentorias de forma híbrida, o que significa que ela gostaria de poder escolher entre participar presencialmente em alguns dias e remotamente em outros, conforme sua situação e necessidades específicas.
