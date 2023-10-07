@@ -123,7 +123,7 @@ Rafaela Alves Santos é estudante do curso de Farmácia na PUC Minas. Ela tem a 
 
 --------------------------------------------------------------------------------------------------------------------
 
-Com base na análise das personas e dos mapas de empatia, foram identificados os seguintes pontos a serem desenvolvidos:
+Com base na análise das personas e nos mapas de empatia, foram identificadas as seguintes pontos a serem desenvolvidas:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`       |PARA ... `MOTIVO/VALOR`                               |
 |--------------------|------------------------------------------|------------------------------------------------------|
@@ -139,7 +139,7 @@ Com base na análise das personas e dos mapas de empatia, foram identificados os
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas subsequentes exibem os requisitos funcionais e não funcionais que proporcionam uma descrição detalhada do escopo do projeto.
 
 ### Requisitos Funcionais
 
@@ -168,7 +168,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+O projeto está limitado pelos elementos apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
@@ -182,14 +182,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 # Projeto de Interface
-Estas soluções foram meticulosamente planejadas visando proporcionar uma experiência completa e eficaz aos usuários. Uma característica fundamental de nosso site será a incorporação de um sistema de chat que permitirá a interação direta e instantânea entre os usuários e os mentores. Isso facilitará a troca eficaz de informações e experiências, possibilitando que os usuários tirem dúvidas, recebam orientações e estabeleçam conexões mais próximas com os mentores, enriquecendo assim o processo de mentoria.
 
-Adicionalmente, o site incluirá uma funcionalidade de agendamento, que permitirá aos usuários agendar sessões de mentoria de acordo com sua disponibilidade e a dos mentores. Essa funcionalidade otimizará a gestão do tempo, garantindo uma organização eficiente das agendas e proporcionando transparência na disponibilidade dos mentores.
+Estas soluções foram minuciosamente planejadas com o objetivo de proporcionar uma experiência completa e eficaz aos usuários. Um elemento essencial do nosso site será a incorporação de um sistema de chat que permitirá a interação direta e instantânea entre os usuários e os mentores. Isso simplificará a troca eficaz de informações e experiências, possibilitando que os usuários esclareçam dúvidas, recebam orientações e estabeleçam conexões mais próximas com os mentores, enriquecendo assim o processo de mentoria.
+
+Além disso, o site incluirá uma funcionalidade de agendamento que permitirá aos usuários marcar sessões de mentoria de acordo com sua disponibilidade e a dos mentores. Essa funcionalidade aprimorará a gestão do tempo, assegurando uma organização eficiente das agendas e proporcionando transparência na disponibilidade dos mentores.
 
 Um recurso valioso será a integração de um fórum no site, onde os usuários poderão compartilhar suas experiências, fazer perguntas e colaborar uns com os outros. Esse espaço comunitário promoverá a colaboração e a troca de conhecimento entre os usuários, enriquecendo ainda mais a experiência educacional.
 
-Por último, nosso site incluirá uma lista de atividades disponibilizadas pelos mentores. Os usuários terão a oportunidade de realizar essas tarefas e acumular pontos à medida que as concluírem. Isso não apenas incentivará a participação ativa, mas também reconhecerá e recompensará o esforço dos usuários em seu desenvolvimento pessoal e acadêmico.
-
+Por fim, nosso site incluirá uma lista de atividades disponibilizadas pelos mentores, juntamente com uma página dedicada ao feedback. Isso permitirá que os usuários realizem tarefas e avaliem tanto os mentores quanto o conteúdo disponibilizado. Essa abordagem não apenas incentivará a participação ativa, mas também possibilitará o aprimoramento contínuo do programa de mentoria com base nos comentários dos usuários.
 
 
 ## User Flow
