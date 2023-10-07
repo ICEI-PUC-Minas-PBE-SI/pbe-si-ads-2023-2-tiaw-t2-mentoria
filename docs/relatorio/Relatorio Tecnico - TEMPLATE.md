@@ -102,8 +102,8 @@ O software web de mentorias para instituições educacionais atende a diversos p
 ![PS_Mateus_Prado](images/PS_Mateus_Prado.png)
 ![ME_Mateus_Prado](images/ME_Mateus_Prado.png)
 
-![PS_Rafaela_Alves](images/PS_Rafaela_Alves.png)
-![ME_Rafaela_Alves](images/ME_Rafaela_Alves.png)
+![PS_Rafaela_Santos](images/PS_Rafaela_Santos.png)
+![ME_Rafaela_Santos](images/ME_Rafaela_Santos.png)
 
 
 ## Histórias de Usuários
