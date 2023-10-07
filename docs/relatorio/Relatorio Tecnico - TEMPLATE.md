@@ -120,7 +120,7 @@ Rafaela Alves Santos é estudante do curso de Farmácia na PUC Minas. Ela tem a 
 
 --------------------------------------------------------------------------------------------------------------------
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas e dos mapas de empatia, foram identificados os seguintes pontos a serem desenvolvidos:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`       |PARA ... `MOTIVO/VALOR`                               |
 |--------------------|------------------------------------------|------------------------------------------------------|
@@ -179,56 +179,24 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 # Projeto de Interface
-Essas soluções foram cuidadosamente planejadas para oferecer uma experiência completa e eficiente aos usuários.
-Uma das características essenciais do nosso site será a presença de um chat de interação entre os usuários e os mentores. Isso permitirá uma comunicação direta e instantânea, facilitando a troca de informações e experiências de maneira eficaz. Os usuários poderão tirar dúvidas, receber orientações e estabelecer uma conexão mais próxima com os mentores, tornando o processo de mentoria mais acessível e valioso.
-Além disso, o site contará com uma funcionalidade de agendamento. Os usuários terão a capacidade de marcar horários de mentoria de acordo com sua disponibilidade e a dos mentores. Isso otimizará a gestão do tempo, permitindo que todos se programem de maneira eficaz. A transparência na disponibilidade dos mentores será fundamental para garantir uma agenda bem organizada.
-Outro recurso valioso será o fórum integrado ao site. Aqui, os usuários poderão compartilhar suas experiências, fazer perguntas, e até mesmo ajudar uns aos outros. Esse espaço de comunidade promoverá a colaboração e a troca de conhecimento entre os usuários, enriquecendo ainda mais a experiência educacional.
-Por fim, nosso site contará com uma lista de atividades disponibilizadas pelos mentores. Os usuários terão a oportunidade de realizar essas tarefas e acumular pontos à medida que as concluírem. Isso não apenas incentivará a participação ativa, mas também reconhecerá e recompensará o esforço dos usuários em seu desenvolvimento pessoal e acadêmico.
+Estas soluções foram meticulosamente planejadas visando proporcionar uma experiência completa e eficaz aos usuários. Uma característica fundamental de nosso site será a incorporação de um sistema de chat que permitirá a interação direta e instantânea entre os usuários e os mentores. Isso facilitará a troca eficaz de informações e experiências, possibilitando que os usuários tirem dúvidas, recebam orientações e estabeleçam conexões mais próximas com os mentores, enriquecendo assim o processo de mentoria.
+
+Adicionalmente, o site incluirá uma funcionalidade de agendamento, que permitirá aos usuários agendar sessões de mentoria de acordo com sua disponibilidade e a dos mentores. Essa funcionalidade otimizará a gestão do tempo, garantindo uma organização eficiente das agendas e proporcionando transparência na disponibilidade dos mentores.
+
+Um recurso valioso será a integração de um fórum no site, onde os usuários poderão compartilhar suas experiências, fazer perguntas e colaborar uns com os outros. Esse espaço comunitário promoverá a colaboração e a troca de conhecimento entre os usuários, enriquecendo ainda mais a experiência educacional.
+
+Por último, nosso site incluirá uma lista de atividades disponibilizadas pelos mentores. Os usuários terão a oportunidade de realizar essas tarefas e acumular pontos à medida que as concluírem. Isso não apenas incentivará a participação ativa, mas também reconhecerá e recompensará o esforço dos usuários em seu desenvolvimento pessoal e acadêmico.
 
 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+![User_Flow](imagesUser_Flow.png)
 
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
-
+![Wireframe](Wireframe.png)
 
 # Metodologia
 
