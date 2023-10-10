@@ -153,9 +153,10 @@ As tabelas subsequentes exibem os requisitos funcionais e não funcionais que pr
 |RF-001| O sistema deve permitir o cadastro de alunos e monitores | ALTA |
 |RF-002| Permitir o cadastro das disciplinas  | ALTA |
 |RF-003| Disponibilizar agenda para marcação de horários com mentores | ALTA |
-|RF-004| Sistema de Mensagem (Chat) para comunicação entre Mentor e Aluno | ALTA | 
-|RF-005| Compartilhamento de Recursos e Matérias Complementares | MÉDIO |
-|RF-006| Avaliação / Feedback dos atendimentos | BAIXO |
+|RF-004| Sistema de Mensagem (Chat) para comunicação entre Mentor e Aluno | ALTA |
+|RF-005| O sistema deve permitir a entrada por Login e Senha | ALTA |
+|RF-006| Compartilhamento de Recursos e Matérias Complementares | MÉDIO |
+|RF-007| Avaliação / Feedback dos atendimentos | BAIXO |
 
 
 ### Requisitos não Funcionais
