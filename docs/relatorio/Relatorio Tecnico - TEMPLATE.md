@@ -8,11 +8,11 @@ Faculdades: Sistemas de Informação e Análise e Desenvolvimento de Sistemas
 
 Desenvolvedores: 
 
+Adenilson Junior
+
 Arthur Alves Oliveira Silva
 
 Alessandro Gomes Pereira
-
-Antônio Guilherme Guimarães Santos de Menezes
 
 Marlon Magalhaes Carvalho
 
