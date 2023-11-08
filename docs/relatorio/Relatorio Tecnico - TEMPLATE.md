@@ -8,7 +8,7 @@ Faculdades: Sistemas de Informação e Análise e Desenvolvimento de Sistemas
 
 Desenvolvedores: 
 
-Adenilson Junior
+Adenilson Rodrigues Cordeiro Junior
 
 Arthur Alves Oliveira Silva
 
