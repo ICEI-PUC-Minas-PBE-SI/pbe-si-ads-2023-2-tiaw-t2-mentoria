@@ -3520,3 +3520,2292 @@ Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diret
 
 </html>
 
+------------------------- darkmode.css------------------------------
+input[type=checkbox]{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 52px;
+  height: 27px;
+  background: grey;
+  float: right;
+  border-radius: 100px;
+  position: relative;
+  left: -50px;
+}
+
+label::after{
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background-color: rgb(142, 142, 240);
+}
+
+input:checked + label::after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 45px;
+}
+
+------------------------- style.css------------------------------
+html{
+
+
+  --body-color:#FFFCFF ;
+
+  --header-color:#d36c6c;
+
+  --header-button:#92a1d1;
+
+  --color-weekdays: #247BA0;
+  
+  --box-shadow: #CBD4C2;
+
+  --hover: #e8faed;
+
+  --current-day:#e8f4fa;
+
+  --event-color: #58bae4;
+
+  --modal-event: #e8f4fa;
+
+
+ --color-day:white;
+  
+
+}
+
+
+
+body {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  background-color: var(--body-color);
+}
+button {
+  width: 105px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px gray;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+#header {
+  padding: 10px;
+  color: var(--header-color) ;
+  font-size: 26px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+#header button {
+  background-color:var(--header-button);
+}
+#container {
+  width: 770px;
+}
+#weekdays {
+  width: 100%;
+  display: flex;
+  color: var(--color-weekdays) ;
+}
+#weekdays div {
+  width: 100px;
+  padding: 10px;
+}
+#calendar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.day {
+  width: 100px;
+  padding: 10px;
+  height: 100px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: var(--color-day);
+  margin: 5px;
+  box-shadow: 0px 0px 3px var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15%;
+}
+.day:hover {
+  background-color: var(--hover);
+}
+
+.day + #currentDay {
+  background-color:var(--current-day);
+}
+.event {
+  font-size: 10px;
+  padding: 3px;
+  background-color: var(--event-color);
+  color: white;
+  border-radius: 5px;
+  max-height: 55px;
+  overflow: hidden;
+}
+.padding {
+  cursor: default !important;
+  background-color: var(--body-color) !important;
+  box-shadow: none !important;
+}
+#newEventModal, #deleteEventModal {
+  display: none;
+  z-index: 20;
+  padding: 25px;
+  background-color: var(--modal-event);
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  width: 350px;
+  top: 100px;
+  left: calc(50% - 175px);
+  position: absolute;
+  font-family: sans-serif;
+}
+#eventTitleInput {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 3px gray;
+}
+#eventTitleInput.error {
+  border: 2px solid red;
+}
+#cancelButton, #deleteButton {
+  background-color: var(--header-color);
+}
+#saveButton, #closeButton {
+  background-color: var(--header-button);
+}
+#eventText {
+  font-size: 14px;
+}
+#modalBackDrop {
+  display: none;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+------------------------- login.css------------------------------
+.VerticalOffset{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.footer {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+body {
+    background: #f2f0f1 url("https://www.sistemas.pucminas.br/sgaaluno4/SilverStream/Objectstore/Images/smc-sga-img-background-login.png") no-repeat top left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-box {
+    margin-top: 10%;
+    background: #f2f0f1 ;
+    height: auto;
+    text-align: center;
+}
+
+.login-image{
+    width: 50%;
+    height: 50%;
+    padding-top: 5%;
+}
+
+.login-title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #1A2226;
+}
+
+.login-form {
+    margin-top: 25px;
+    text-align: left;
+}
+
+input[type=text] {
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    color: #1A2226;
+    width: 50%;
+    margin-left: 25%;
+}
+
+input[type=password] {
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 0px;
+    margin-bottom: 15px;
+    color: #1A2226;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    outline: 0px;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #0DB8DE;
+    outline: 0;
+    background-color: white;
+    color: #1A2226;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.form-control-label {
+    font-size: 15px;
+    color: #1A2226;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 25%;
+}
+
+.btn-outline-primary {
+    border-color: #0DB8DE;
+    color: #0DB8DE;
+    border-radius: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn-outline-primary:hover {
+    background-color: #0DB8DE;
+    right: 0px;
+}
+
+.login-btm {
+    float: left;
+}
+
+.login-button {
+    padding-right: 0px;
+    margin-left: 25%;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.login-text {
+    text-align: left;
+    padding-left: 0px;
+    color: #A2A4A4;
+}
+
+.loginbttm {
+    padding: 0px;
+}
+
+.check-box{
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+.forgot-password{
+    margin-top: -5%;
+    margin-left: 25%;
+}
+.radio-box{
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+------------------------- styles.css------------------------------
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --nav-width: 92px;
+
+  /*===== Colores =====*/
+  --first-color: #0C5DF4;
+  --bg-color: #12192C;
+  --sub-color: #B6CEFC;
+  --white-color: #FFF;
+
+  /*===== Fuente y tipografia =====*/
+  --body-font: 'Poppins', sans-serif;
+  --normal-font-size: 1rem;
+  --small-font-size: .875rem;
+
+  /*===== z index =====*/
+  --z-fixed: 100;
+}
+
+/*===== BASE =====*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 2rem 0 0 6.75rem;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  transition: .5s;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*===== l NAV =====*/
+.l-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 100%;
+  background-color: var(--bg-color);
+  color: var(--white-color);
+  padding: 1.5rem 1.5rem 2rem;
+  transition: .5s;
+  z-index: var(--z-fixed);
+}
+
+/*===== NAV =====*/
+.nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.nav__brand {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.nav__toggle {
+  font-size: 1.25rem;
+  padding: .75rem;
+  cursor: pointer;
+}
+
+.nav__logo {
+  color: var(--white-color);
+  font-weight: 600;
+}
+
+.nav__link {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: .75rem;
+  padding: .75rem;
+  color: var(--white-color);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.nav__link:hover {
+  background-color: var(--first-color);
+}
+
+.nav__icon {
+  font-size: 1.25rem;
+  color: white;
+}
+
+.nav__name {
+  font-size: var(--small-font-size);
+  color: white;
+}
+
+/*Expander menu*/
+.expander {
+  width: calc(var(--nav-width) + 40.25rem);
+}
+
+/*Add padding body*/
+.body-pd {
+  padding: 2rem 0 0 16rem;
+}
+
+/*Active links menu*/
+.active {
+  background-color: var(--first-color);
+}
+
+/*Rotate icon*/
+.rotate {
+  transform: rotate(180deg);
+}
+
+#navbar.l-navbar.expander {
+  width: 250px;
+}
+
+a.nav__link {
+  width: 200px;
+}
+
+.nav__link.collapse {
+  width: 200px;
+}
+
+/*FIM*/
+
+#logo {
+  margin-left: 4%;
+  margin-bottom: -2%;
+}
+
+#foto {
+  border-radius: 50%;
+  margin-left: 8%;
+  margin-bottom: 35%;
+}
+
+.card {
+  height: 100%;
+}
+
+
+.inbox .inbox-menu ul {
+  margin-top: 30px;
+  padding: 0;
+  list-style: none
+}
+
+.inbox .inbox-menu ul li {
+  height: 30px;
+  padding: 5px 15px;
+  position: relative
+}
+
+.inbox .inbox-menu ul li:hover,
+.inbox .inbox-menu ul li.active {
+  background: #e4e5e6
+}
+
+.inbox .inbox-menu ul li.title {
+  margin: 20px 0 -5px 0;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #d1d4d7
+}
+
+.inbox .inbox-menu ul li.title:hover {
+  background: 0 0
+}
+
+.inbox .inbox-menu ul li a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #3d3f42
+}
+
+.inbox .inbox-menu ul li a i {
+  margin-right: 10px
+}
+
+.inbox .inbox-menu ul li a .label {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  display: block;
+  min-width: 14px;
+  height: 14px;
+  padding: 2px
+}
+
+.inbox ul.messages-list {
+  list-style: none;
+  margin: 15px -15px 0 -15px;
+  padding: 15px 15px 0 15px;
+  border-top: 1px solid #d1d4d7
+}
+
+.inbox ul.messages-list li {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px
+}
+
+.inbox ul.messages-list li a {
+  color: #3d3f42
+}
+
+.inbox ul.messages-list li a:hover {
+  text-decoration: none
+}
+
+.inbox ul.messages-list li.unread .header,
+.inbox ul.messages-list li.unread .title {
+  font-weight: 700
+}
+
+.inbox ul.messages-list li:hover {
+  background: #e4e5e6;
+  border: 1px solid #d1d4d7;
+  padding: 9px
+}
+
+.inbox ul.messages-list li:hover .action {
+  color: #d1d4d7
+}
+
+.inbox ul.messages-list li .header {
+  margin: 0 0 5px 0
+}
+
+.inbox ul.messages-list li .header .from {
+  width: 49.9%;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis
+}
+
+.inbox ul.messages-list li .header .date {
+  width: 50%;
+  text-align: right;
+  float: right
+}
+
+.inbox ul.messages-list li .title {
+  margin: 0 0 5px 0;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis
+}
+
+.inbox ul.messages-list li .description {
+  font-size: 12px;
+  padding-left: 29px
+}
+
+.inbox ul.messages-list li .action {
+  display: inline-block;
+  width: 16px;
+  text-align: center;
+  margin-right: 10px;
+  color: #d1d4d7
+}
+
+.inbox ul.messages-list li .action .fa-check-square-o {
+  margin: 0 -1px 0 1px
+}
+
+.inbox ul.messages-list li .action .fa-square {
+  float: left;
+  margin-top: -16px;
+  margin-left: 4px;
+  font-size: 11px;
+  color: #fff
+}
+
+.inbox ul.messages-list li .action .fa-star.bg {
+  float: left;
+  margin-top: -16px;
+  margin-left: 3px;
+  font-size: 12px;
+  color: #fff
+}
+
+.inbox .message .message-title {
+  margin-top: 30px;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 14px
+}
+
+.inbox .message .header {
+  margin: 20px 0 30px 0;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid #d1d4d7;
+  border-bottom: 1px solid #d1d4d7
+}
+
+.inbox .message .header .avatar {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  height: 34px;
+  width: 34px;
+  float: left;
+  margin-right: 10px
+}
+
+.inbox .message .header i {
+  margin-top: 1px
+}
+
+.inbox .message .header .from {
+  display: inline-block;
+  width: 50%;
+  font-size: 12px;
+  margin-top: -2px;
+  color: #d1d4d7
+}
+
+.inbox .message .header .from span {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #3d3f42
+}
+
+.inbox .message .header .date {
+  display: inline-block;
+  width: 29%;
+  text-align: right;
+  font-size: 12px;
+  margin-top: 18px
+}
+
+.inbox .message .attachments {
+  border-top: 3px solid #e4e5e6;
+  border-bottom: 3px solid #e4e5e6;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  font-size: 12px
+}
+
+.inbox .message .attachments ul {
+  list-style: none;
+  margin: 0 0 0 -40px
+}
+
+.inbox .message .attachments ul li {
+  margin: 10px 0
+}
+
+.inbox .message .attachments ul li .label {
+  padding: 2px 4px
+}
+
+.inbox .message .attachments ul li span.quickMenu {
+  float: right;
+  text-align: right
+}
+
+.inbox .message .attachments ul li span.quickMenu .fa {
+  padding: 5px 0 5px 25px;
+  font-size: 14px;
+  margin: -2px 0 0 5px;
+  color: #d1d4d7
+}
+
+.inbox .contacts ul {
+  margin-top: 30px;
+  padding: 0;
+  list-style: none
+}
+
+.inbox .contacts ul li {
+  height: 30px;
+  padding: 5px 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis !important;
+  position: relative;
+  cursor: pointer
+}
+
+.inbox .contacts ul li .label {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  padding: 0;
+  margin: 0 5px 2px 0
+}
+
+.inbox .contacts ul li:hover {
+  background: #e4e5e6
+}
+
+
+
+
+.faq {
+  padding: 60px 0;
+}
+
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li {
+  background-color: #ffee5a;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  text-decoration: none;
+}
+
+.faq .faq-list i {
+  font-size: 16px;
+  position: absolute;
+  left: -25px;
+  top: 6px;
+  transition: 1s;
+}
+
+.faq-title {
+  text-align: center;
+  font-size: 17px;
+  border-bottom: 2px dashed #ffffff;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.faq .faq-list p {
+  padding-top: 5px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.collapsed i.fas.fa-arrow-up {
+  transform: rotate(180deg);
+}
+
+#banner {
+  border-radius: 10px;
+}
+
+/*Config.html CSS*/
+
+.config-form {
+  margin-left: 35%;
+  margin-top: 5%;
+}
+
+.change-image {
+  margin-left: 36%;
+  margin-top: 2%;
+}
+
+.form-group {
+
+  margin-bottom: 8px;
+}
+
+
+.card {
+  margin-bottom: 24px;
+  box-shadow: 0 2px 3px #e4e8f0;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #eff0f2;
+  border-radius: 1rem;
+}
+
+.avatar-md {
+  height: 4rem;
+  width: 4rem;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #f1f3f7;
+  border: 1px solid #eff0f2;
+  border-radius: 0.75rem;
+}
+
+.avatar-title {
+  align-items: center;
+  background-color: #3b76e1;
+  color: #fff;
+  display: flex;
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.bg-soft-primary {
+  background-color: rgba(59, 118, 225, .25) !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.badge-soft-danger {
+  color: #f56e6e !important;
+  background-color: rgba(245, 110, 110, .1);
+}
+
+.badge-soft-success {
+  color: #63ad6f !important;
+  background-color: rgba(99, 173, 111, .1);
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.6em;
+  font-size: 75%;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.75rem;
+}
+
+@media (min-width: 700px) {
+
+  #modal1 .modal-dialog {
+    max-width: 50%;
+
+  }
+
+  #modal2 .modal-dialog {
+    max-width: 80%;
+  }
+
+  #modal3 .modal-dialog {
+    max-width: 90%;
+  }
+}
+-------------------------darkmode.js------------------------------
+const html = document.querySelector('html')
+const checkbox = document.querySelector("input[name=theme]")
+
+const getStyle = (element, style) => 
+    window
+        .getComputedStyle(element)
+        .getPropertyValue(style)
+
+
+const initialColors = {
+  bodyColor: getStyle(html, '--body-color'),
+  headerColor: getStyle(html, '--header-color'),
+  headerButton: getStyle(html, '--header-button'),
+  colorWeekdays: getStyle(html, '--color-weekdays'),
+  currentDay: getStyle(html, '--current-day'),
+  eventColor: getStyle(html, '--event-color'),
+  eventColor: getStyle(html, '--event-color'),
+  colorDay: getStyle(html, '--color-day'),
+  modalEvent: getStyle(html, '--modal-event')
+  
+
+  
+}
+
+const darkMode = {
+  bodyColor:'#282a36',
+  headerColor: '#ff5555',
+  headerButton:'#bd93f9',
+  colorWeekdays: '#6272a4' ,
+  currentDay: '#f8f8f2',
+  eventColor: '#6272a4',
+  colorDay: '#44475a',
+  modalEvent: '#6272a4'
+  
+}
+
+const transformKey = key => 
+    "--" + key.replace(/([A-Z])/, "-$1").toLowerCase()
+
+
+const changeColors = (colors) => {
+    Object.keys(colors).map(key => {
+        html.style.setProperty(transformKey(key), colors[key]) 
+        console.log(transformKey(key), colors[key])
+      }
+    )
+    console.log(colors)
+}
+
+
+
+checkbox.addEventListener("change", ({target}) => {
+    target.checked ? changeColors(darkMode) : changeColors(initialColors)
+})
+
+
+
+
+
+
+------------------------- main.css------------------------------
+
+// variaveis globais
+
+let nav = 0
+let clicked = null
+let events = localStorage.getItem('events') ? JSON.parse(localStorage.getItem('events')) : []
+
+
+// variavel do modal:
+const newEvent = document.getElementById('newEventModal')
+const deleteEventModal = document.getElementById('deleteEventModal')
+const backDrop = document.getElementById('modalBackDrop')
+const eventTitleInput = document.getElementById('eventTitleInput')
+// --------
+const calendar = document.getElementById('calendar') // div calendar:
+const weekdays = ['domingo','segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado'] //array with weekdays:
+
+//funções
+
+function openModal(date){
+  clicked = date
+  const eventDay = events.find((event)=>event.date === clicked)
+ 
+
+  if (eventDay){
+   document.getElementById('eventText').innerText = eventDay.title
+   deleteEventModal.style.display = 'block'
+
+
+  } else{
+    newEvent.style.display = 'block'
+
+  }
+
+  backDrop.style.display = 'block'
+}
+
+//função load() será chamada quando a pagina carregar:
+
+function load (){ 
+  const date = new Date() 
+  
+
+  //mudar titulo do mês:
+  if(nav !== 0){
+    date.setMonth(new Date().getMonth() + nav) 
+  }
+  
+  const day = date.getDate()
+  const month = date.getMonth()
+  const year = date.getFullYear()
+
+  
+  
+  const daysMonth = new Date (year, month + 1 , 0).getDate()
+  const firstDayMonth = new Date (year, month, 1)
+  
+
+  const dateString = firstDayMonth.toLocaleDateString('pt-br', {
+    weekday: 'long',
+    year:    'numeric',
+    month:   'numeric',
+    day:     'numeric',
+  })
+  
+
+  const paddinDays = weekdays.indexOf(dateString.split(', ') [0])
+  
+  //mostrar mês e ano:
+  document.getElementById('monthDisplay').innerText = `${date.toLocaleDateString('pt-br',{month: 'long'})}, ${year}`
+
+  
+  calendar.innerHTML =''
+
+  // criando uma div com os dias:
+
+  for (let i = 1; i <= paddinDays + daysMonth; i++) {
+    const dayS = document.createElement('div')
+    dayS.classList.add('day')
+
+    const dayString = `${month + 1}/${i - paddinDays}/${year}`
+
+    //condicional para criar os dias de um mês:
+     
+    if (i > paddinDays) {
+      dayS.innerText = i - paddinDays
+      
+
+      const eventDay = events.find(event=>event.date === dayString)
+      
+      if(i - paddinDays === day && nav === 0){
+        dayS.id = 'currentDay'
+      }
+
+
+      if(eventDay){
+        const eventDiv = document.createElement('div')
+        eventDiv.classList.add('event')
+        eventDiv.innerText = eventDay.title
+        dayS.appendChild(eventDiv)
+
+      }
+
+      dayS.addEventListener('click', ()=> openModal(dayString))
+
+    } else {
+      dayS.classList.add('padding')
+    }
+
+    
+    calendar.appendChild(dayS)
+  }
+}
+
+function closeModal(){
+  eventTitleInput.classList.remove('error')
+  newEvent.style.display = 'none'
+  backDrop.style.display = 'none'
+  deleteEventModal.style.display = 'none'
+
+  eventTitleInput.value = ''
+  clicked = null
+  load()
+
+}
+function saveEvent(){
+  if(eventTitleInput.value){
+    eventTitleInput.classList.remove('error')
+
+    events.push({
+      date: clicked,
+      title: eventTitleInput.value
+    })
+
+    localStorage.setItem('events', JSON.stringify(events))
+    closeModal()
+
+  }else{
+    eventTitleInput.classList.add('error')
+  }
+}
+
+function deleteEvent(){
+
+  events = events.filter(event => event.date !== clicked)
+  localStorage.setItem('events', JSON.stringify(events))
+  closeModal()
+}
+
+// botões 
+
+function buttons (){
+  document.getElementById('backButton').addEventListener('click', ()=>{
+    nav--
+    load()
+    
+  })
+
+  document.getElementById('nextButton').addEventListener('click',()=>{
+    nav++
+    load()
+    
+  })
+
+  document.getElementById('saveButton').addEventListener('click',()=> saveEvent())
+
+  document.getElementById('cancelButton').addEventListener('click',()=>closeModal())
+
+  document.getElementById('deleteButton').addEventListener('click', ()=>deleteEvent())
+
+  document.getElementById('closeButton').addEventListener('click', ()=>closeModal())
+  
+}
+buttons()
+load()
+
+
+
+------------------------- config.js------------------------------
+"use strict"; 
+document.addEventListener("DOMContentLoaded", function (e) { { document.querySelector("#formAccountDeactivation"); 
+let e = document.getElementById("uploadedAvatar"); 
+const t = document.querySelector(".account-file-input"), c = document.querySelector(".account-image-reset"); 
+if (e) { const n = e.src; t.onchange = () => { t.files[0] && (e.src = window.URL.createObjectURL(t.files[0])) }, c.onclick = () => { t.value = "", e.src = n } } return } });
+
+------------------------- main.js------------------------------
+/*===== EXPANDER MENU  =====*/ 
+const showMenu = (toggleId, navbarId, bodyId)=>{
+  const toggle = document.getElementById(toggleId),
+  navbar = document.getElementById(navbarId),
+  bodypadding = document.getElementById(bodyId)
+
+  if(toggle && navbar){
+    toggle.addEventListener('click', ()=>{
+      navbar.classList.toggle('expander')
+
+      bodypadding.classList.toggle('body-pd')
+    })
+  }
+}
+showMenu('nav-toggle','navbar','body-pd')
+
+/*===== LINK ACTIVE  =====*/ 
+const linkColor = document.querySelectorAll('.nav__link')
+function colorLink(){
+  linkColor.forEach(l=> l.classList.remove('active'))
+  this.classList.add('active')
+}
+linkColor.forEach(l=> l.addEventListener('click', colorLink))
+
+
+/*===== COLLAPSE MENU  =====*/ 
+const linkCollapse = document.getElementsByClassName('collapse__link')
+var i
+
+for(i=0;i<linkCollapse.length;i++){
+  linkCollapse[i].addEventListener('click', function(){
+    const collapseMenu = this.nextElementSibling
+    collapseMenu.classList.toggle('showCollapse')
+
+    const rotate = collapseMenu.previousElementSibling
+    rotate.classList.toggle('rotate')
+  })
+}
+------------------------- script.js------------------------------
+jQuery(document).ready(function($) {
+
+	var cols = {},
+
+		messageIsOpen = false;
+
+	cols.showOverlay = function() {
+		$('body').addClass('show-main-overlay');
+	};
+	cols.hideOverlay = function() {
+		$('body').removeClass('show-main-overlay');
+	};
+
+
+	cols.showMessage = function() {
+		$('body').addClass('show-message');
+		messageIsOpen = true;
+	};
+	cols.hideMessage = function() {
+		$('body').removeClass('show-message');
+		$('#main .message-list li').removeClass('active');
+		messageIsOpen = false;
+	};
+
+
+	cols.showSidebar = function() {
+		$('body').addClass('show-sidebar');
+	};
+	cols.hideSidebar = function() {
+		$('body').removeClass('show-sidebar');
+	};
+
+
+	// Show sidebar when trigger is clicked
+
+	$('.trigger-toggle-sidebar').on('click', function() {
+		cols.showSidebar();
+		cols.showOverlay();
+	});
+
+
+	$('.trigger-message-close').on('click', function() {
+		cols.hideMessage();
+		cols.hideOverlay();
+	});
+
+
+	// When you click on a message, show it
+
+	$('#main .message-list li').on('click', function(e) {
+		var item = $(this),
+			target = $(e.target);
+
+		if(target.is('label')) {
+			item.toggleClass('selected');
+		} else {
+			if(messageIsOpen && item.is('.active')) {
+				cols.hideMessage();
+				cols.hideOverlay();
+			} else {
+				if(messageIsOpen) {
+					cols.hideMessage();
+					item.addClass('active');
+					setTimeout(function() {
+						cols.showMessage();
+					}, 300);
+				} else {
+					item.addClass('active');
+					cols.showMessage();
+				}
+				cols.showOverlay();
+			}
+		}
+	});
+
+
+	// This will prevent click from triggering twice when clicking checkbox/label
+
+	$('input[type=checkbox]').on('click', function(e) {
+		e.stopImmediatePropagation();
+	});
+
+
+
+	// When you click the overlay, close everything
+
+	$('#main > .overlay').on('click', function() {
+		cols.hideOverlay();
+		cols.hideMessage();
+		cols.hideSidebar();
+	});
+
+
+
+	// Enable sexy scrollbars
+	$('.nano').nanoScroller();
+
+
+
+	// Disable links
+
+	$('a').on('click', function(e) {
+		e.preventDefault();
+	});
+
+
+
+	// Search box responsive stuff
+
+	$('.search-box input').on('focus', function() {
+		if($(window).width() <= 1360) {
+			cols.hideMessage();
+		}
+	});
+
+});
+
+
+
+
+/*! nanoScrollerJS - v0.8.0 - 2014
+* https://jamesflorentino.github.com/nanoScrollerJS/
+* Copyright (c) 2014 James Florentino; Licensed MIT */
+(function($, window, document) {
+  "use strict";
+  var BROWSER_IS_IE7, BROWSER_SCROLLBAR_WIDTH, DOMSCROLL, DOWN, DRAG, KEYDOWN, KEYUP, MOUSEDOWN, MOUSEMOVE, MOUSEUP, MOUSEWHEEL, NanoScroll, PANEDOWN, RESIZE, SCROLL, SCROLLBAR, TOUCHMOVE, UP, WHEEL, cAF, defaults, getBrowserScrollbarWidth, hasTransform, isFFWithBuggyScrollbar, rAF, transform, _elementStyle, _prefixStyle, _vendor;
+  defaults = {
+
+    /**
+      a classname for the pane element.
+      @property paneClass
+      @type String
+      @default 'nano-pane'
+     */
+    paneClass: 'nano-pane',
+
+    /**
+      a classname for the slider element.
+      @property sliderClass
+      @type String
+      @default 'nano-slider'
+     */
+    sliderClass: 'nano-slider',
+
+    /**
+      a classname for the content element.
+      @property contentClass
+      @type String
+      @default 'nano-content'
+     */
+    contentClass: 'nano-content',
+
+    /**
+      a setting to enable native scrolling in iOS devices.
+      @property iOSNativeScrolling
+      @type Boolean
+      @default false
+     */
+    iOSNativeScrolling: false,
+
+    /**
+      a setting to prevent the rest of the page being
+      scrolled when user scrolls the `.content` element.
+      @property preventPageScrolling
+      @type Boolean
+      @default false
+     */
+    preventPageScrolling: false,
+
+    /**
+      a setting to disable binding to the resize event.
+      @property disableResize
+      @type Boolean
+      @default false
+     */
+    disableResize: false,
+
+    /**
+      a setting to make the scrollbar always visible.
+      @property alwaysVisible
+      @type Boolean
+      @default false
+     */
+    alwaysVisible: false,
+
+    /**
+      a default timeout for the `flash()` method.
+      @property flashDelay
+      @type Number
+      @default 1500
+     */
+    flashDelay: 1500,
+
+    /**
+      a minimum height for the `.slider` element.
+      @property sliderMinHeight
+      @type Number
+      @default 20
+     */
+    sliderMinHeight: 20,
+
+    /**
+      a maximum height for the `.slider` element.
+      @property sliderMaxHeight
+      @type Number
+      @default null
+     */
+    sliderMaxHeight: null,
+
+    /**
+      an alternate document context.
+      @property documentContext
+      @type Document
+      @default null
+     */
+    documentContext: null,
+
+    /**
+      an alternate window context.
+      @property windowContext
+      @type Window
+      @default null
+     */
+    windowContext: null
+  };
+
+  /**
+    @property SCROLLBAR
+    @type String
+    @static
+    @final
+    @private
+   */
+  SCROLLBAR = 'scrollbar';
+
+  /**
+    @property SCROLL
+    @type String
+    @static
+    @final
+    @private
+   */
+  SCROLL = 'scroll';
+
+  /**
+    @property MOUSEDOWN
+    @type String
+    @final
+    @private
+   */
+  MOUSEDOWN = 'mousedown';
+
+  /**
+    @property MOUSEMOVE
+    @type String
+    @static
+    @final
+    @private
+   */
+  MOUSEMOVE = 'mousemove';
+
+  /**
+    @property MOUSEWHEEL
+    @type String
+    @final
+    @private
+   */
+  MOUSEWHEEL = 'mousewheel';
+
+  /**
+    @property MOUSEUP
+    @type String
+    @static
+    @final
+    @private
+   */
+  MOUSEUP = 'mouseup';
+
+  /**
+    @property RESIZE
+    @type String
+    @final
+    @private
+   */
+  RESIZE = 'resize';
+
+  /**
+    @property DRAG
+    @type String
+    @static
+    @final
+    @private
+   */
+  DRAG = 'drag';
+
+  /**
+    @property UP
+    @type String
+    @static
+    @final
+    @private
+   */
+  UP = 'up';
+
+  /**
+    @property PANEDOWN
+    @type String
+    @static
+    @final
+    @private
+   */
+  PANEDOWN = 'panedown';
+
+  /**
+    @property DOMSCROLL
+    @type String
+    @static
+    @final
+    @private
+   */
+  DOMSCROLL = 'DOMMouseScroll';
+
+  /**
+    @property DOWN
+    @type String
+    @static
+    @final
+    @private
+   */
+  DOWN = 'down';
+
+  /**
+    @property WHEEL
+    @type String
+    @static
+    @final
+    @private
+   */
+  WHEEL = 'wheel';
+
+  /**
+    @property KEYDOWN
+    @type String
+    @static
+    @final
+    @private
+   */
+  KEYDOWN = 'keydown';
+
+  /**
+    @property KEYUP
+    @type String
+    @static
+    @final
+    @private
+   */
+  KEYUP = 'keyup';
+
+  /**
+    @property TOUCHMOVE
+    @type String
+    @static
+    @final
+    @private
+   */
+  TOUCHMOVE = 'touchmove';
+
+  /**
+    @property BROWSER_IS_IE7
+    @type Boolean
+    @static
+    @final
+    @private
+   */
+  BROWSER_IS_IE7 = window.navigator.appName === 'Microsoft Internet Explorer' && /msie 7./i.test(window.navigator.appVersion) && window.ActiveXObject;
+
+  /**
+    @property BROWSER_SCROLLBAR_WIDTH
+    @type Number
+    @static
+    @default null
+    @private
+   */
+  BROWSER_SCROLLBAR_WIDTH = null;
+  rAF = window.requestAnimationFrame;
+  cAF = window.cancelAnimationFrame;
+  _elementStyle = document.createElement('div').style;
+  _vendor = (function() {
+    var i, transform, vendor, vendors, _i, _len;
+    vendors = ['t', 'webkitT', 'MozT', 'msT', 'OT'];
+    for (i = _i = 0, _len = vendors.length; _i < _len; i = ++_i) {
+      vendor = vendors[i];
+      transform = vendors[i] + 'ransform';
+      if (transform in _elementStyle) {
+        return vendors[i].substr(0, vendors[i].length - 1);
+      }
+    }
+    return false;
+  })();
+  _prefixStyle = function(style) {
+    if (_vendor === false) {
+      return false;
+    }
+    if (_vendor === '') {
+      return style;
+    }
+    return _vendor + style.charAt(0).toUpperCase() + style.substr(1);
+  };
+  transform = _prefixStyle('transform');
+  hasTransform = transform !== false;
+
+  /**
+    Returns browser's native scrollbar width
+    @method getBrowserScrollbarWidth
+    @return {Number} the scrollbar width in pixels
+    @static
+    @private
+   */
+  getBrowserScrollbarWidth = function() {
+    var outer, outerStyle, scrollbarWidth;
+    outer = document.createElement('div');
+    outerStyle = outer.style;
+    outerStyle.position = 'absolute';
+    outerStyle.width = '100px';
+    outerStyle.height = '100px';
+    outerStyle.overflow = SCROLL;
+    outerStyle.top = '-9999px';
+    document.body.appendChild(outer);
+    scrollbarWidth = outer.offsetWidth - outer.clientWidth;
+    document.body.removeChild(outer);
+    return scrollbarWidth;
+  };
+  isFFWithBuggyScrollbar = function() {
+    var isOSXFF, ua, version;
+    ua = window.navigator.userAgent;
+    isOSXFF = /(?=.+Mac OS X)(?=.+Firefox)/.test(ua);
+    if (!isOSXFF) {
+      return false;
+    }
+    version = /Firefox\/\d{2}\./.exec(ua);
+    if (version) {
+      version = version[0].replace(/\D+/g, '');
+    }
+    return isOSXFF && +version > 23;
+  };
+
+  /**
+    @class NanoScroll
+    @param element {HTMLElement|Node} the main element
+    @param options {Object} nanoScroller's options
+    @constructor
+   */
+  NanoScroll = (function() {
+    function NanoScroll(el, options) {
+      this.el = el;
+      this.options = options;
+      BROWSER_SCROLLBAR_WIDTH || (BROWSER_SCROLLBAR_WIDTH = getBrowserScrollbarWidth());
+      this.$el = $(this.el);
+      this.doc = $(this.options.documentContext || document);
+      this.win = $(this.options.windowContext || window);
+      this.$content = this.$el.children("." + options.contentClass);
+      this.$content.attr('tabindex', this.options.tabIndex || 0);
+      this.content = this.$content[0];
+      if (this.options.iOSNativeScrolling && (this.el.style.WebkitOverflowScrolling != null)) {
+        this.nativeScrolling();
+      } else {
+        this.generate();
+      }
+      this.createEvents();
+      this.addEvents();
+      this.reset();
+    }
+
+
+    /**
+      Prevents the rest of the page being scrolled
+      when user scrolls the `.nano-content` element.
+      @method preventScrolling
+      @param event {Event}
+      @param direction {String} Scroll direction (up or down)
+      @private
+     */
+
+    NanoScroll.prototype.preventScrolling = function(e, direction) {
+      if (!this.isActive) {
+        return;
+      }
+      if (e.type === DOMSCROLL) {
+        if (direction === DOWN && e.originalEvent.detail > 0 || direction === UP && e.originalEvent.detail < 0) {
+          e.preventDefault();
+        }
+      } else if (e.type === MOUSEWHEEL) {
+        if (!e.originalEvent || !e.originalEvent.wheelDelta) {
+          return;
+        }
+        if (direction === DOWN && e.originalEvent.wheelDelta < 0 || direction === UP && e.originalEvent.wheelDelta > 0) {
+          e.preventDefault();
+        }
+      }
+    };
+
+
+    /**
+      Enable iOS native scrolling
+      @method nativeScrolling
+      @private
+     */
+
+    NanoScroll.prototype.nativeScrolling = function() {
+      this.$content.css({
+        WebkitOverflowScrolling: 'touch'
+      });
+      this.iOSNativeScrolling = true;
+      this.isActive = true;
+    };
+
+
+    /**
+      Updates those nanoScroller properties that
+      are related to current scrollbar position.
+      @method updateScrollValues
+      @private
+     */
+
+    NanoScroll.prototype.updateScrollValues = function() {
+      var content;
+      content = this.content;
+      this.maxScrollTop = content.scrollHeight - content.clientHeight;
+      this.prevScrollTop = this.contentScrollTop || 0;
+      this.contentScrollTop = content.scrollTop;
+      if (!this.iOSNativeScrolling) {
+        this.maxSliderTop = this.paneHeight - this.sliderHeight;
+        this.sliderTop = this.maxScrollTop === 0 ? 0 : this.contentScrollTop * this.maxSliderTop / this.maxScrollTop;
+      }
+    };
+
+
+    /**
+      Updates CSS styles for current scroll position.
+      Uses CSS 2d transfroms and `window.requestAnimationFrame` if available.
+      @method setOnScrollStyles
+      @private
+     */
+
+    NanoScroll.prototype.setOnScrollStyles = function() {
+      var cssValue;
+      if (hasTransform) {
+        cssValue = {};
+        cssValue[transform] = "translate(0, " + this.sliderTop + "px)";
+      } else {
+        cssValue = {
+          top: this.sliderTop
+        };
+      }
+      if (rAF) {
+        if (!this.scrollRAF) {
+          this.scrollRAF = rAF((function(_this) {
+            return function() {
+              _this.scrollRAF = null;
+              _this.slider.css(cssValue);
+            };
+          })(this));
+        }
+      } else {
+        this.slider.css(cssValue);
+      }
+    };
+
+
+    /**
+      Creates event related methods
+      @method createEvents
+      @private
+     */
+
+    NanoScroll.prototype.createEvents = function() {
+      this.events = {
+        down: (function(_this) {
+          return function(e) {
+            _this.isBeingDragged = true;
+            _this.offsetY = e.pageY - _this.slider.offset().top;
+            _this.pane.addClass('active');
+            _this.doc.bind(MOUSEMOVE, _this.events[DRAG]).bind(MOUSEUP, _this.events[UP]);
+            return false;
+          };
+        })(this),
+        drag: (function(_this) {
+          return function(e) {
+            _this.sliderY = e.pageY - _this.$el.offset().top - _this.offsetY;
+            _this.scroll();
+            if (_this.contentScrollTop >= _this.maxScrollTop && _this.prevScrollTop !== _this.maxScrollTop) {
+              _this.$el.trigger('scrollend');
+            } else if (_this.contentScrollTop === 0 && _this.prevScrollTop !== 0) {
+              _this.$el.trigger('scrolltop');
+            }
+            return false;
+          };
+        })(this),
+        up: (function(_this) {
+          return function(e) {
+            _this.isBeingDragged = false;
+            _this.pane.removeClass('active');
+            _this.doc.unbind(MOUSEMOVE, _this.events[DRAG]).unbind(MOUSEUP, _this.events[UP]);
+            return false;
+          };
+        })(this),
+        resize: (function(_this) {
+          return function(e) {
+            _this.reset();
+          };
+        })(this),
+        panedown: (function(_this) {
+          return function(e) {
+            _this.sliderY = (e.offsetY || e.originalEvent.layerY) - (_this.sliderHeight * 0.5);
+            _this.scroll();
+            _this.events.down(e);
+            return false;
+          };
+        })(this),
+        scroll: (function(_this) {
+          return function(e) {
+            _this.updateScrollValues();
+            if (_this.isBeingDragged) {
+              return;
+            }
+            if (!_this.iOSNativeScrolling) {
+              _this.sliderY = _this.sliderTop;
+              _this.setOnScrollStyles();
+            }
+            if (e == null) {
+              return;
+            }
+            if (_this.contentScrollTop >= _this.maxScrollTop) {
+              if (_this.options.preventPageScrolling) {
+                _this.preventScrolling(e, DOWN);
+              }
+              if (_this.prevScrollTop !== _this.maxScrollTop) {
+                _this.$el.trigger('scrollend');
+              }
+            } else if (_this.contentScrollTop === 0) {
+              if (_this.options.preventPageScrolling) {
+                _this.preventScrolling(e, UP);
+              }
+              if (_this.prevScrollTop !== 0) {
+                _this.$el.trigger('scrolltop');
+              }
+            }
+          };
+        })(this),
+        wheel: (function(_this) {
+          return function(e) {
+            var delta;
+            if (e == null) {
+              return;
+            }
+            delta = e.delta || e.wheelDelta || (e.originalEvent && e.originalEvent.wheelDelta) || -e.detail || (e.originalEvent && -e.originalEvent.detail);
+            if (delta) {
+              _this.sliderY += -delta / 3;
+            }
+            _this.scroll();
+            return false;
+          };
+        })(this)
+      };
+    };
+
+
+    /**
+      Adds event listeners with jQuery.
+      @method addEvents
+      @private
+     */
+
+    NanoScroll.prototype.addEvents = function() {
+      var events;
+      this.removeEvents();
+      events = this.events;
+      if (!this.options.disableResize) {
+        this.win.bind(RESIZE, events[RESIZE]);
+      }
+      if (!this.iOSNativeScrolling) {
+        this.slider.bind(MOUSEDOWN, events[DOWN]);
+        this.pane.bind(MOUSEDOWN, events[PANEDOWN]).bind("" + MOUSEWHEEL + " " + DOMSCROLL, events[WHEEL]);
+      }
+      this.$content.bind("" + SCROLL + " " + MOUSEWHEEL + " " + DOMSCROLL + " " + TOUCHMOVE, events[SCROLL]);
+    };
+
+
+    /**
+      Removes event listeners with jQuery.
+      @method removeEvents
+      @private
+     */
+
+    NanoScroll.prototype.removeEvents = function() {
+      var events;
+      events = this.events;
+      this.win.unbind(RESIZE, events[RESIZE]);
+      if (!this.iOSNativeScrolling) {
+        this.slider.unbind();
+        this.pane.unbind();
+      }
+      this.$content.unbind("" + SCROLL + " " + MOUSEWHEEL + " " + DOMSCROLL + " " + TOUCHMOVE, events[SCROLL]);
+    };
+
+
+    /**
+      Generates nanoScroller's scrollbar and elements for it.
+      @method generate
+      @chainable
+      @private
+     */
+
+    NanoScroll.prototype.generate = function() {
+      var contentClass, cssRule, currentPadding, options, paneClass, sliderClass;
+      options = this.options;
+      paneClass = options.paneClass, sliderClass = options.sliderClass, contentClass = options.contentClass;
+      if (!this.$el.find("." + paneClass).length && !this.$el.find("." + sliderClass).length) {
+        this.$el.append("<div class=\"" + paneClass + "\"><div class=\"" + sliderClass + "\" /></div>");
+      }
+      this.pane = this.$el.children("." + paneClass);
+      this.slider = this.pane.find("." + sliderClass);
+      if (BROWSER_SCROLLBAR_WIDTH === 0 && isFFWithBuggyScrollbar()) {
+        currentPadding = window.getComputedStyle(this.content, null).getPropertyValue('padding-right').replace(/\D+/g, '');
+        cssRule = {
+          right: -14,
+          paddingRight: +currentPadding + 14
+        };
+      } else if (BROWSER_SCROLLBAR_WIDTH) {
+        cssRule = {
+          right: -BROWSER_SCROLLBAR_WIDTH
+        };
+        this.$el.addClass('has-scrollbar');
+      }
+      if (cssRule != null) {
+        this.$content.css(cssRule);
+      }
+      return this;
+    };
+
+
+    /**
+      @method restore
+      @private
+     */
+
+    NanoScroll.prototype.restore = function() {
+      this.stopped = false;
+      if (!this.iOSNativeScrolling) {
+        this.pane.show();
+      }
+      this.addEvents();
+    };
+
+
+    /**
+      Resets nanoScroller's scrollbar.
+      @method reset
+      @chainable
+      @example
+          $(".nano").nanoScroller();
+     */
+
+    NanoScroll.prototype.reset = function() {
+      var content, contentHeight, contentPosition, contentStyle, contentStyleOverflowY, paneBottom, paneHeight, paneOuterHeight, paneTop, parentMaxHeight, right, sliderHeight;
+      if (this.iOSNativeScrolling) {
+        this.contentHeight = this.content.scrollHeight;
+        return;
+      }
+      if (!this.$el.find("." + this.options.paneClass).length) {
+        this.generate().stop();
+      }
+      if (this.stopped) {
+        this.restore();
+      }
+      content = this.content;
+      contentStyle = content.style;
+      contentStyleOverflowY = contentStyle.overflowY;
+      if (BROWSER_IS_IE7) {
+        this.$content.css({
+          height: this.$content.height()
+        });
+      }
+      contentHeight = content.scrollHeight + BROWSER_SCROLLBAR_WIDTH;
+      parentMaxHeight = parseInt(this.$el.css("max-height"), 10);
+      if (parentMaxHeight > 0) {
+        this.$el.height("");
+        this.$el.height(content.scrollHeight > parentMaxHeight ? parentMaxHeight : content.scrollHeight);
+      }
+      paneHeight = this.pane.outerHeight(false);
+      paneTop = parseInt(this.pane.css('top'), 10);
+      paneBottom = parseInt(this.pane.css('bottom'), 10);
+      paneOuterHeight = paneHeight + paneTop + paneBottom;
+      sliderHeight = Math.round(paneOuterHeight / contentHeight * paneOuterHeight);
+      if (sliderHeight < this.options.sliderMinHeight) {
+        sliderHeight = this.options.sliderMinHeight;
+      } else if ((this.options.sliderMaxHeight != null) && sliderHeight > this.options.sliderMaxHeight) {
+        sliderHeight = this.options.sliderMaxHeight;
+      }
+      if (contentStyleOverflowY === SCROLL && contentStyle.overflowX !== SCROLL) {
+        sliderHeight += BROWSER_SCROLLBAR_WIDTH;
+      }
+      this.maxSliderTop = paneOuterHeight - sliderHeight;
+      this.contentHeight = contentHeight;
+      this.paneHeight = paneHeight;
+      this.paneOuterHeight = paneOuterHeight;
+      this.sliderHeight = sliderHeight;
+      this.slider.height(sliderHeight);
+      this.events.scroll();
+      this.pane.show();
+      this.isActive = true;
+      if ((content.scrollHeight === content.clientHeight) || (this.pane.outerHeight(true) >= content.scrollHeight && contentStyleOverflowY !== SCROLL)) {
+        this.pane.hide();
+        this.isActive = false;
+      } else if (this.el.clientHeight === content.scrollHeight && contentStyleOverflowY === SCROLL) {
+        this.slider.hide();
+      } else {
+        this.slider.show();
+      }
+      this.pane.css({
+        opacity: (this.options.alwaysVisible ? 1 : ''),
+        visibility: (this.options.alwaysVisible ? 'visible' : '')
+      });
+      contentPosition = this.$content.css('position');
+      if (contentPosition === 'static' || contentPosition === 'relative') {
+        right = parseInt(this.$content.css('right'), 10);
+        if (right) {
+          this.$content.css({
+            right: '',
+            marginRight: right
+          });
+        }
+      }
+      return this;
+    };
+
+
+    /**
+      @method scroll
+      @private
+      @example
+          $(".nano").nanoScroller({ scroll: 'top' });
+     */
+
+    NanoScroll.prototype.scroll = function() {
+      if (!this.isActive) {
+        return;
+      }
+      this.sliderY = Math.max(0, this.sliderY);
+      this.sliderY = Math.min(this.maxSliderTop, this.sliderY);
+      this.$content.scrollTop((this.paneHeight - this.contentHeight + BROWSER_SCROLLBAR_WIDTH) * this.sliderY / this.maxSliderTop * -1);
+      if (!this.iOSNativeScrolling) {
+        this.updateScrollValues();
+        this.setOnScrollStyles();
+      }
+      return this;
+    };
+
+
+    /**
+      Scroll at the bottom with an offset value
+      @method scrollBottom
+      @param offsetY {Number}
+      @chainable
+      @example
+          $(".nano").nanoScroller({ scrollBottom: value });
+     */
+
+    NanoScroll.prototype.scrollBottom = function(offsetY) {
+      if (!this.isActive) {
+        return;
+      }
+      this.$content.scrollTop(this.contentHeight - this.$content.height() - offsetY).trigger(MOUSEWHEEL);
+      this.stop().restore();
+      return this;
+    };
+
+
+    /**
+      Scroll at the top with an offset value
+      @method scrollTop
+      @param offsetY {Number}
+      @chainable
+      @example
+          $(".nano").nanoScroller({ scrollTop: value });
+     */
+
+    NanoScroll.prototype.scrollTop = function(offsetY) {
+      if (!this.isActive) {
+        return;
+      }
+      this.$content.scrollTop(+offsetY).trigger(MOUSEWHEEL);
+      this.stop().restore();
+      return this;
+    };
+
+
+    /**
+      Scroll to an element
+      @method scrollTo
+      @param node {Node} A node to scroll to.
+      @chainable
+      @example
+          $(".nano").nanoScroller({ scrollTo: $('#a_node') });
+     */
+
+    NanoScroll.prototype.scrollTo = function(node) {
+      if (!this.isActive) {
+        return;
+      }
+      this.scrollTop(this.$el.find(node).get(0).offsetTop);
+      return this;
+    };
+
+
+    /**
+      To stop the operation.
+      This option will tell the plugin to disable all event bindings and hide the gadget scrollbar from the UI.
+      @method stop
+      @chainable
+      @example
+          $(".nano").nanoScroller({ stop: true });
+     */
+
+    NanoScroll.prototype.stop = function() {
+      if (cAF && this.scrollRAF) {
+        cAF(this.scrollRAF);
+        this.scrollRAF = null;
+      }
+      this.stopped = true;
+      this.removeEvents();
+      if (!this.iOSNativeScrolling) {
+        this.pane.hide();
+      }
+      return this;
+    };
+
+
+    /**
+      Destroys nanoScroller and restores browser's native scrollbar.
+      @method destroy
+      @chainable
+      @example
+          $(".nano").nanoScroller({ destroy: true });
+     */
+
+    NanoScroll.prototype.destroy = function() {
+      if (!this.stopped) {
+        this.stop();
+      }
+      if (!this.iOSNativeScrolling && this.pane.length) {
+        this.pane.remove();
+      }
+      if (BROWSER_IS_IE7) {
+        this.$content.height('');
+      }
+      this.$content.removeAttr('tabindex');
+      if (this.$el.hasClass('has-scrollbar')) {
+        this.$el.removeClass('has-scrollbar');
+        this.$content.css({
+          right: ''
+        });
+      }
+      return this;
+    };
+
+
+    /**
+      To flash the scrollbar gadget for an amount of time defined in plugin settings (defaults to 1,5s).
+      Useful if you want to show the user (e.g. on pageload) that there is more content waiting for him.
+      @method flash
+      @chainable
+      @example
+          $(".nano").nanoScroller({ flash: true });
+     */
+
+    NanoScroll.prototype.flash = function() {
+      if (this.iOSNativeScrolling) {
+        return;
+      }
+      if (!this.isActive) {
+        return;
+      }
+      this.reset();
+      this.pane.addClass('flashed');
+      setTimeout((function(_this) {
+        return function() {
+          _this.pane.removeClass('flashed');
+        };
+      })(this), this.options.flashDelay);
+      return this;
+    };
+
+    return NanoScroll;
+
+  })();
+  $.fn.nanoScroller = function(settings) {
+    return this.each(function() {
+      var options, scrollbar;
+      if (!(scrollbar = this.nanoscroller)) {
+        options = $.extend({}, defaults, settings);
+        this.nanoscroller = scrollbar = new NanoScroll(this, options);
+      }
+      if (settings && typeof settings === "object") {
+        $.extend(scrollbar.options, settings);
+        if (settings.scrollBottom != null) {
+          return scrollbar.scrollBottom(settings.scrollBottom);
+        }
+        if (settings.scrollTop != null) {
+          return scrollbar.scrollTop(settings.scrollTop);
+        }
+        if (settings.scrollTo) {
+          return scrollbar.scrollTo(settings.scrollTo);
+        }
+        if (settings.scroll === 'bottom') {
+          return scrollbar.scrollBottom(0);
+        }
+        if (settings.scroll === 'top') {
+          return scrollbar.scrollTop(0);
+        }
+        if (settings.scroll && settings.scroll instanceof $) {
+          return scrollbar.scrollTo(settings.scroll);
+        }
+        if (settings.stop) {
+          return scrollbar.stop();
+        }
+        if (settings.destroy) {
+          return scrollbar.destroy();
+        }
+        if (settings.flash) {
+          return scrollbar.flash();
+        }
+      }
+      return scrollbar.reset();
+    });
+  };
+  $.fn.nanoScroller.Constructor = NanoScroll;
+})(jQuery, window, document);
+
+//# sourceMappingURL=jquery.nanoscroller.js.map
+
+
