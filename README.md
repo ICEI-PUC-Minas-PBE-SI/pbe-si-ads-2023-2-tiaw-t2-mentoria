@@ -2,11 +2,11 @@
 O projeto visa desenvolver um software web para melhorar a gestão do processo de mentoria, focando na comunicação entre mentores e mentorados, incluindo a seleção do mentor e a definição dos tópicos a serem abordados. Os objetivos incluem a pesquisa preliminar para identificar desafios da mentoria, análise de requisitos, criação da aplicação web para agendar e gerenciar sessões de mentoria, além do uso de técnicas de desenvolvimento web para criar uma interface eficaz. O propósito é simplificar o processo de mentoria, promovendo a interação entre as partes envolvidas.
 
 ## Alunos:
+Adenilson Rodrigues Cordeiro Junior
+
 Arthur Alves Oliveira SIlva
 
 Alessandro Gomes Pereira
-
-Antônio Guilherme Guimarães Santos de Menezes
 
 Marlon Magalhaes Carvalho
 
