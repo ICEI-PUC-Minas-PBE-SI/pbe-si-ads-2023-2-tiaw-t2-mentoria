@@ -209,7 +209,11 @@ Por fim, nosso site incluirá uma aba dedicada à inclusão de listas de ativida
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......
+A metodologia adotada pelo nosso grupo para o desenvolvimento deste projeto baseou-se nas práticas ágeis, uma abordagem que valoriza a flexibilidade, a colaboração e a entrega contínua. Optamos por utilizar o Scrum, um dos métodos ágeis mais reconhecidos, para guiar nosso processo de trabalho. 
+A metodologia enfatiza a entrega incremental, permitindo que as funcionalidades do projeto sejam desenvolvidas e disponibilizadas em ciclos curtos, conhecidos como sprints. Cada sprint teve uma duração fixa, proporcionando oportunidades frequentes de revisão e adaptação do trabalho realizado. 
+Para facilitar a comunicação e colaboração, utilizamos ferramentas colaborativas, como o discord para comunicação em tempo real e o Trello para gerenciar as tarefas em um formato visual e interativo. Essas ferramentas foram essenciais para manter todos os membros da equipe alinhados com os objetivos e progressos do projeto. 
+......
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -229,7 +233,45 @@ Por fim, nosso site incluirá uma aba dedicada à inclusão de listas de ativida
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+...... Adenilson: Tarefas: Alinhou cards do Painel de Controle,
+Deixou todas as imagens da capa de album com o mesmo tamanho,
+Reduziu e otimizar os nomes das páginas do projetos,
+Melhorou a Estilização da Página de Conteúdo com Ícones e Fontes.
+Desenvolveu um Novo Painel do Monitor no Estilo de Postagem de Blog,
+Desenvolveu um botão que fica visivel somente ao Monitor/Professor para apagar o conteudo postado da semana e outro botão que permita editar, etc.
+
+Alessandro: Tarefas: Adicionou os Novos Inputs da Página Calendário ao Calendário, 
+Desenvolveu Botão para Envio de Imagem da Capa dos Cards/Configuração
+Adicionou botão Light/Dark na agenda.
+Colocou calendario dentro de um container Bootstrap para responsividade.
+Limpou o codigo da página que desenvolveu, etc.
+
+Arthur: Tarefas: Verificação de Responsividade da Tela Desenvolvida, 
+Corrigiu o Botão Voltar na Página dos Conteúdos das Disciplinas,
+Verificou se todas as páginas estão linkadas de forma correta,
+Melhorou e corrigiu o conteúdo das páginas. Exemplo: remover em ajuda informações sobre feedback,
+Corrigiu os nomes e emails das pessoas na pagina de pessoas,
+Corrigiu a pagina de ajuda com um link para os contatos da PUC, etc.
+
+Marlon: Tarefas:  Vinculou no código a imagem do "Fale com a PUC Minas" com o site da PUC Minas Oficial.
+Desenvolveu Página de Caixa de Saída, 
+Desenvolveu Página de Importantes,
+Desenvolveu Página de Lixeira,
+Verificou se todas as páginas estão linkadas de forma correta. E fez a correção.
+Realizou a revisão geral do trabalho. Verificar responsividade, conexões, links, comunicação, github etc
+Supervisionou a equipe com relação as entragas na data marcada, etc.
+
+Samuel: Tarefas: Desenvolveu botão "Sair" para todas as paginas,
+Colocou ícones na página ajuda em cada opção,
+Verificou a responsividade do Menu lateral das páginas,
+Limpou o codigo das páginas,
+Desenvolveu página do mentor,
+Desenvolveu barra lateral,
+Coordenou a equipe em direção as metas e sprints,
+Foi responsável por corrigir erros, códigos, documentos e tudo que envolve o trabalho em cada sprint.
+
+
+Em resumo, Cada membro do grupo fez um pouco de tudo em cada sprint (estilização, alinhamento, responsividade, etc).  ...... 
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
