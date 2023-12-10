@@ -1,6 +1,6 @@
 # Informações do Projeto 
 
-DESENVOLVIMENTO DE UM SOFTWARE WEB PARA GERENCIAMENTO DE MENTORIAS DA PUC MINAS
+DESENVOLVIMENTO DE UM SOFTWARE WEB PARA GERENCIAMENTO DE MONITORIAS DA PUC MINAS
 
 Faculdades: Sistemas de Informação e Análise e Desenvolvimento de Sistemas
 
@@ -57,38 +57,38 @@ Samuel Correia Nunes
 # Introdução
 
 ## Problema
-  Para muitos estudantes, a busca por orientação ou mentoria pode ser dificultada por equívocos e desafios significativos. Algumas pessoas encaram essa busca como um sinal de vulnerabilidade ou falta de competência, o que acaba por desencorajá-las a procurar mentores. Além disso, estudantes universitários frequentemente enfrentam uma carga horária intensa, equilibrando aulas e trabalho, o que gera uma sensação de sobrecarga e falta de tempo para se envolver na busca por um mentor. A dificuldade em coordenar agendas também é um obstáculo adicional, especialmente quando os mentores em potencial também estão sobrecarregados com suas próprias obrigações acadêmicas e profissionais.
+  Para muitos estudantes, a busca por orientação ou monitoria pode ser dificultada por equívocos e desafios significativos. Algumas pessoas encaram essa busca como um sinal de vulnerabilidade ou falta de competência, o que acaba por desencorajá-las a procurar monitores. Além disso, estudantes universitários frequentemente enfrentam uma carga horária intensa, equilibrando aulas e trabalho, o que gera uma sensação de sobrecarga e falta de tempo para se envolver na busca por um monitor. A dificuldade em coordenar agendas também é um obstáculo adicional, especialmente quando os monitores em potencial também estão sobrecarregados com suas próprias obrigações acadêmicas e profissionais.
 
-  Nesse cenário desafiador, a sincronização das agendas dos alunos com as dos mentores torna-se uma tarefa complicada, frequentemente desencorajando a busca por mentoria. No entanto, é importante reconhecer que esses obstáculos não deveriam impedir os estudantes de buscar orientação. Apesar das dificuldades, os benefícios que a mentoria pode oferecer em suas jornadas acadêmicas e profissionais são imensuráveis. Portanto, é fundamental superar esses desafios, procurando ativamente mentores que possam oferecer orientação valiosa.
+  Nesse cenário desafiador, a sincronização das agendas dos alunos com as dos monitores torna-se uma tarefa complicada, frequentemente desencorajando a busca por monitoria. No entanto, é importante reconhecer que esses obstáculos não deveriam impedir os estudantes de buscar orientação. Apesar das dificuldades, os benefícios que a monitoria pode oferecer em suas jornadas acadêmicas e profissionais são imensuráveis. Portanto, é fundamental superar esses desafios, procurando ativamente monitores que possam oferecer orientação valiosa.
 
 ## Objetivos
 
-Desenvolver um software web voltado para a gestão do processo de aprendizado entre mentores e mentorados, com foco na facilitação da comunicação entre ambas as partes, incluindo a seleção do mentor e a definição dos tópicos a serem abordados durante a mentoria.
+Desenvolver um software web voltado para a gestão do processo de aprendizado entre monitores e monitorados, com foco na facilitação da comunicação entre ambas as partes, incluindo a seleção do monitor e a definição dos tópicos a serem abordados durante a monitoria.
 
 Objetivos Específicos:
 Este projeto se propõe a alcançar os seguintes objetivos:
 
-- Realizar uma pesquisa preliminar para identificar e definir os desafios associados ao processo de mentoria.
+- Realizar uma pesquisa preliminar para identificar e definir os desafios associados ao processo de monitoria.
 - Conduzir uma análise detalhada da documentação de requisitos, visando a identificação dos elementos cruciais para a criação do software.
-- Criar uma aplicação web que permita a marcação e administração de sessões de mentoria por meio de módulos e funcionalidades específicas.
+- Criar uma aplicação web que permita a marcação e administração de sessões de monitoria por meio de módulos e funcionalidades específicas.
 - Utilizar técnicas de desenvolvimento web para a construção da interface e layout da plataforma, garantindo também a implementação das funcionalidades necessárias.
 
-Deste modo, nosso objetivo é desenvolver um software web que facilite eficazmente a gestão do processo de mentoria, promovendo a interação entre mentor e mentorado, ao mesmo tempo em que simplifica a escolha do mentor e a definição dos temas a serem abordados durante as sessões.
+Deste modo, nosso objetivo é desenvolver um software web que facilite eficazmente a gestão do processo de monitoria, promovendo a interação entre monitor e monitorado, ao mesmo tempo em que simplifica a escolha do monitor e a definição dos temas a serem abordados durante as sessões.
 
 ## Justificativa
 
-  O software Mentoria foi concebido com o propósito fundamental de revolucionar a interação entre os alunos e monitores da PUC Minas, com o objetivo primordial de simplificar e aprimorar substancialmente o canal de comunicação entre esses dois grupos, visando proporcionar uma experiência global aprimorada. Apesar de a plataforma CANVAS já oferecer a funcionalidade de mentoria, o atual modelo não está plenamente alinhado com as necessidades dos usuários que buscam especificamente esse tipo de interação. Nesse contexto, essa questão adquire grande relevância, especialmente para os alunos ingressantes da universidade, que frequentemente não estão familiarizados com o funcionamento detalhado do CANVAS e do SGA, o que resulta em desconhecimento e limitações na sua utilização eficiente.
+  O software monitoria foi concebido com o propósito fundamental de revolucionar a interação entre os alunos e monitores da PUC Minas, com o objetivo primordial de simplificar e aprimorar substancialmente o canal de comunicação entre esses dois grupos, visando proporcionar uma experiência global aprimorada. Apesar de a plataforma CANVAS já oferecer a funcionalidade de monitoria, o atual modelo não está plenamente alinhado com as necessidades dos usuários que buscam especificamente esse tipo de interação. Nesse contexto, essa questão adquire grande relevância, especialmente para os alunos ingressantes da universidade, que frequentemente não estão familiarizados com o funcionamento detalhado do CANVAS e do SGA, o que resulta em desconhecimento e limitações na sua utilização eficiente.
 
-  A implementação dessas melhorias não apenas beneficiará os alunos, proporcionando-lhes uma experiência mais suave e produtiva, mas também terá impactos positivos significativos para os monitores, contribuindo para a otimização e aprimoramento da eficácia do processo para todas as partes envolvidas permitindo a ambos novas funcionalidades para a melhor condução do processo de mentoria.
+  A implementação dessas melhorias não apenas beneficiará os alunos, proporcionando-lhes uma experiência mais suave e produtiva, mas também terá impactos positivos significativos para os monitores, contribuindo para a otimização e aprimoramento da eficácia do processo para todas as partes envolvidas permitindo a ambos novas funcionalidades para a melhor condução do processo de monitoria.
 
 ## Público-Alvo
 
-O software web de mentorias para instituições educacionais atende a diversos públicos, incluindo:
+O software web de monitorias para instituições educacionais atende a diversos públicos, incluindo:
 
 - Professores e Orientadores: Utilizam a plataforma para fornecer suporte acadêmico e orientação aos estudantes.
-- Alunos: Acessam a ferramenta para aprimorar seu desempenho acadêmico e planejar suas sessões de mentoria.
-- Coordenadores Educacionais: Responsáveis pela supervisão de diversas atividades, incluindo as mentorias, contam com o software para gerenciar esses processos de forma eficiente.
-- Administração Escolar: Os membros da equipe administrativa utilizam a plataforma para garantir o funcionamento adequado de todas as operações relacionadas às mentorias e à gestão geral da instituição.
+- Alunos: Acessam a ferramenta para aprimorar seu desempenho acadêmico e planejar suas sessões de monitoria.
+- Coordenadores Educacionais: Responsáveis pela supervisão de diversas atividades, incluindo as monitorias, contam com o software para gerenciar esses processos de forma eficiente.
+- Administração Escolar: Os membros da equipe administrativa utilizam a plataforma para garantir o funcionamento adequado de todas as operações relacionadas às monitorias e à gestão geral da instituição.
  
 # Especificações do Projeto
 
@@ -105,12 +105,12 @@ O software web de mentorias para instituições educacionais atende a diversos p
 
 ## Histórias de Usuários
 --------------------------------------------------------------------------------------------------------------------
-Maria Gabriela Amorim é estudante do curso de Psicologia na PUC Minas e leva uma vida extremamente ocupada. Ela enfrenta desafios consideráveis na tentativa de equilibrar seus horários de estudo com seus compromissos pessoais e profissionais. Durante nossa entrevista, ela destacou a dificuldade que enfrenta ao buscar suporte para as disciplinas em que encontra obstáculos. Isso ocorre, em grande parte, devido à maioria das sessões de monitoria ocorrerem durante as tardes e, frequentemente, de forma presencial. No entanto, devido à sua residência distante e ao seu estágio em uma grande empresa, Gabriela não tem a flexibilidade de comparecer a essas mentorias.
-Ela está ansiosa por uma solução que lhe permita harmonizar sua agenda com a disponibilidade das mentorias de forma híbrida, o que significa que ela gostaria de poder escolher entre participar presencialmente em alguns dias e remotamente em outros, conforme sua situação e necessidades específicas.
+Maria Gabriela Amorim é estudante do curso de Psicologia na PUC Minas e leva uma vida extremamente ocupada. Ela enfrenta desafios consideráveis na tentativa de equilibrar seus horários de estudo com seus compromissos pessoais e profissionais. Durante nossa entrevista, ela destacou a dificuldade que enfrenta ao buscar suporte para as disciplinas em que encontra obstáculos. Isso ocorre, em grande parte, devido à maioria das sessões de monitoria ocorrerem durante as tardes e, frequentemente, de forma presencial. No entanto, devido à sua residência distante e ao seu estágio em uma grande empresa, Gabriela não tem a flexibilidade de comparecer a essas monitorias.
+Ela está ansiosa por uma solução que lhe permita harmonizar sua agenda com a disponibilidade das monitorias de forma híbrida, o que significa que ela gostaria de poder escolher entre participar presencialmente em alguns dias e remotamente em outros, conforme sua situação e necessidades específicas.
 
 --------------------------------------------------------------------------------------------------------------------
-Mateus Júnior Prado é um estudante dedicado do curso de Sistemas de Informação na PUC Minas. Desde o início de sua jornada acadêmica, ele traçou com clareza seus objetivos: tornar-se um programador habilidoso e, eventualmente, alcançar o sucesso como desenvolvedor de software. No entanto, Mateus compreendia que a estrada para atingir esses objetivos seria longa e repleta de desafios. Um dos obstáculos que ele enfrentou desde o início de sua trajetória foi a necessidade de orientação e mentoria.
-Ele reconhecia a importância de aprender com aqueles que já trilharam o caminho que ele desejava seguir, mas deparava-se com a constante dificuldade de encontrar mentores e agendar sessões de mentoria que se encaixassem em sua agenda lotada de aulas e projetos. Determinado a superar esse obstáculo, Mateus começou a buscar métodos ágeis e flexíveis para programar e realizar suas mentorias. Ele percebeu que o mundo digital oferece uma infinidade de soluções e estava decidido a aproveitar ao máximo esses recursos.
+Mateus Júnior Prado é um estudante dedicado do curso de Sistemas de Informação na PUC Minas. Desde o início de sua jornada acadêmica, ele traçou com clareza seus objetivos: tornar-se um programador habilidoso e, eventualmente, alcançar o sucesso como desenvolvedor de software. No entanto, Mateus compreendia que a estrada para atingir esses objetivos seria longa e repleta de desafios. Um dos obstáculos que ele enfrentou desde o início de sua trajetória foi a necessidade de orientação e monitoria.
+Ele reconhecia a importância de aprender com aqueles que já trilharam o caminho que ele desejava seguir, mas deparava-se com a constante dificuldade de encontrar monitores e agendar sessões de monitoria que se encaixassem em sua agenda lotada de aulas e projetos. Determinado a superar esse obstáculo, Mateus começou a buscar métodos ágeis e flexíveis para programar e realizar suas monitorias. Ele percebeu que o mundo digital oferece uma infinidade de soluções e estava decidido a aproveitar ao máximo esses recursos.
 
 --------------------------------------------------------------------------------------------------------------------
 Rafaela Alves Santos é estudante do curso de Farmácia na PUC Minas. Ela tem a necessidade de entrar em contato com a monitoria da universidade de maneira ágil e eficiente. Seu objetivo é escolher as disciplinas que requerem sua maior atenção. Essa busca por agilidade e facilidade no acesso ao sistema de monitoria tem como finalidade principal auxiliá-la nos estudos das matérias em que enfrenta maiores dificuldades. Ela tem o desejo em economizar tempo e melhorar seu desempenho acadêmico, aproveitando da oportunidade para esclarecer dúvidas com os monitores, tornando seu processo de aprendizado mais eficaz.
@@ -121,22 +121,22 @@ Com base nas análises das personas e nos mapas de empatia, foram identificados 
 
 |MARIA GABRIELA      | QUERO/PRECISO                            |PARA                                                  |
 |--------------------|------------------------------------------|------------------------------------------------------|
-|Usuário do sistema  | Agendar as mentorias                     | Conciliar as agendas                                 |
-|Usuário do sistema  | Mentorias na modalidade Remota/Presencial| Flexibilidade de atendimento                         |
+|Usuário do sistema  | Agendar as monitorias                     | Conciliar as agendas                                 |
+|Usuário do sistema  | monitorias na modalidade Remota/Presencial| Flexibilidade de atendimento                         |
 
 |MATEUS JUNIOR       | QUERO/PRECISO                            |PARA                                                  |
 |--------------------|------------------------------------------|------------------------------------------------------|
-|Usuário do sistema  | Agendar as mentorias                     | Conciliar as agendas                                 |
-|Usuário do sistema  | Mentorias na modalidade Remota/Presencial| Flexibilidade de atendimento                         |
-|Usuário do sistema  | Sistema de Feedback                      | Criticas em relação as disponibilidades dos mentores |
+|Usuário do sistema  | Agendar as monitorias                     | Conciliar as agendas                                 |
+|Usuário do sistema  | monitorias na modalidade Remota/Presencial| Flexibilidade de atendimento                         |
+|Usuário do sistema  | Sistema de Feedback                      | Criticas em relação as disponibilidades dos monitores |
 
 
 |RAFAELA ALVES       | QUERO/PRECISO                            |PARA                                                  |
 |--------------------|------------------------------------------|------------------------------------------------------|
-|Usuário do sistema  | Agendar as mentorias                     | Conciliar as agendas                                 |
-|Usuário do sistema  | Comunicar com o mentor                   | Sanar duvidas                                        |
-|Usuário do sistema  | Mentorias na modalidade Remota/Presencial| Flexibilidade de atendimento                         |
-|Usuário do sistema  | Sistema de Feedback                      | Criticas em relação as disponibilidades dos mentores |
+|Usuário do sistema  | Agendar as monitorias                     | Conciliar as agendas                                 |
+|Usuário do sistema  | Comunicar com o monitor                   | Sanar duvidas                                        |
+|Usuário do sistema  | monitorias na modalidade Remota/Presencial| Flexibilidade de atendimento                         |
+|Usuário do sistema  | Sistema de Feedback                      | Criticas em relação as disponibilidades dos monitores |
 |Usuário do sistema  | Suporte ao Sistema                       | Auxiliar na utilização do novo sistema               |
 
 
@@ -152,8 +152,8 @@ As tabelas subsequentes exibem os requisitos funcionais e não funcionais que pr
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve permitir o cadastro de alunos e monitores | ALTA |
 |RF-002| Permitir o cadastro das disciplinas  | ALTA |
-|RF-003| Disponibilizar agenda para marcação de horários com mentores | ALTA |
-|RF-004| Sistema de Mensagem para comunicação entre Mentor e Aluno | ALTA |
+|RF-003| Disponibilizar agenda para marcação de horários com monitores | ALTA |
+|RF-004| Sistema de Mensagem para comunicação entre monitor e Aluno | ALTA |
 |RF-005| O sistema deve permitir a entrada por Login e Senha | ALTA |
 |RF-006| Compartilhamento de Recursos e Matérias Complementares | MÉDIO |
 |RF-007| Avaliação / Feedback dos atendimentos | BAIXO |
@@ -189,13 +189,13 @@ O projeto está limitado pelos elementos apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-Estas soluções foram minuciosamente planejadas com o objetivo de proporcionar uma experiência completa e eficaz aos usuários. Um elemento essencial do nosso site será a incorporação de um sistema de mensagem que permitirá a interação direta entre os usuários e os mentores. Isso simplificará a troca eficaz de informações e experiências, possibilitando que os usuários esclareçam dúvidas, recebam orientações e estabeleçam conexões mais próximas com os mentores, enriquecendo assim o processo de mentoria.
+Estas soluções foram minuciosamente planejadas com o objetivo de proporcionar uma experiência completa e eficaz aos usuários. Um elemento essencial do nosso site será a incorporação de um sistema de mensagem que permitirá a interação direta entre os usuários e os monitores. Isso simplificará a troca eficaz de informações e experiências, possibilitando que os usuários esclareçam dúvidas, recebam orientações e estabeleçam conexões mais próximas com os monitores, enriquecendo assim o processo de monitoria.
 
-Ademais, o site incluirá uma funcionalidade de agendamento que permitirá aos mentores marcar sessões de mentoria de acordo com sua disponibilidade. Essa funcionalidade aprimorará a gestão do tempo, assegurando uma organização eficiente das agendas e proporcionando transparência na disponibilidade dos mentores.
+Ademais, o site incluirá uma funcionalidade de agendamento que permitirá aos monitores marcar sessões de monitoria de acordo com sua disponibilidade. Essa funcionalidade aprimorará a gestão do tempo, assegurando uma organização eficiente das agendas e proporcionando transparência na disponibilidade dos monitores.
 
 Um recurso valioso será a integração de um fórum no site, onde os usuários poderão compartilhar suas experiências, fazer perguntas e colaborar uns com os outros. Esse espaço comunitário promoverá a colaboração e a troca de conhecimento entre os usuários, enriquecendo ainda mais a experiência educacional.
 
-Por fim, nosso site incluirá uma aba dedicada à inclusão de listas de atividades, vídeos e materiais complementares disponibilizados pelos mentores. Além disso, o site também contará com uma página dedicada ao feedback. Isso permitirá que os usuários realizem tarefas e avaliem tanto os mentores quanto o conteúdo disponibilizado. Essa abordagem não apenas incentivará a participação ativa, mas também possibilitará o aprimoramento contínuo do programa de mentoria com base nos comentários dos usuários.
+Por fim, nosso site incluirá uma aba dedicada à inclusão de listas de atividades, vídeos e materiais complementares disponibilizados pelos monitores. Além disso, o site também contará com uma página dedicada ao feedback. Isso permitirá que os usuários realizem tarefas e avaliem tanto os monitores quanto o conteúdo disponibilizado. Essa abordagem não apenas incentivará a participação ativa, mas também possibilitará o aprimoramento contínuo do programa de monitoria com base nos comentários dos usuários.
 
 
 ## User Flow
@@ -248,7 +248,7 @@ Samuel: Tarefas: Desenvolveu botão "Sair" para todas as paginas,
 Colocou ícones na página ajuda em cada opção,
 Verificou a responsividade do Menu lateral das páginas,
 Limpou o codigo das páginas,
-Desenvolveu página do mentor,
+Desenvolveu página do monitor,
 Desenvolveu barra lateral,
 Coordenou a equipe em direção as metas e sprints,
 Foi responsável por corrigir erros, códigos, documentos e tudo que envolve o trabalho em cada sprint.
@@ -258,7 +258,7 @@ Em resumo, Cada membro do grupo fez um pouco de tudo em cada sprint (estilizaç�
 
 ## Ferramentas
 
-No processo de desenvolvimento de um software web voltado para a gestão de processo de aprendizado entre mentores e mentorados, diversas ferramentas desempenharam papéis cruciais. Cada uma delas contribuiu para diferentes aspectos do ciclo de vida do software, desde o planejamento até a entrega final. Abaixo, destacamos as principais ferramentas utilizadas e suas respectivas usabilidades e vantagens:
+No processo de desenvolvimento de um software web voltado para a gestão de processo de aprendizado entre monitores e monitorados, diversas ferramentas desempenharam papéis cruciais. Cada uma delas contribuiu para diferentes aspectos do ciclo de vida do software, desde o planejamento até a entrega final. Abaixo, destacamos as principais ferramentas utilizadas e suas respectivas usabilidades e vantagens:
 
 Trello - Controle de Demandas e Gerenciamento de Projeto:
 
