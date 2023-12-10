@@ -150,13 +150,13 @@ As tabelas subsequentes exibem os requisitos funcionais e não funcionais que pr
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deve permitir o cadastro de alunos e monitores | ALTA |
+|RF-001| O sistema deve ter um banco de dados de alunos e monitores | ALTA |
 |RF-002| Permitir o cadastro das disciplinas  | ALTA |
 |RF-003| Disponibilizar agenda para marcação de horários com monitores | ALTA |
 |RF-004| Sistema de Mensagem para comunicação entre monitor e Aluno | ALTA |
 |RF-005| O sistema deve permitir a entrada por Login e Senha | ALTA |
 |RF-006| Compartilhamento de Recursos e Matérias Complementares | MÉDIO |
-|RF-007| Avaliação / Feedback dos atendimentos | BAIXO |
+|RF-007| O sistema deve possuir encaminhamento para sites que possibilitem o Feedback dos alunos| BAIXO |
 
 
 ### Requisitos não Funcionais
@@ -180,7 +180,7 @@ O projeto está limitado pelos elementos apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O sistema web será desenvolvido visando apenas desktops.|
 |02| O projeto deverá ser concluído até o final do semestre letivo.|
-|03| O projeto possui 3 desenvolvedores.|
+|03| O projeto possui 5 desenvolvedores.|
 |04| Restrições orçamentárias e financeiras.|
 |05| O sistema deverá ser desenvolvido em JavaScript.|
 |06| O sistema deve ser desenvolvido em língua portuguesa.|
@@ -216,45 +216,46 @@ Para facilitar a comunicação e colaboração, utilizamos ferramentas colaborat
 
 ## Divisão de Papéis
 
-Adenilson: Tarefas: Alinhou cards do Painel de Controle,
-Deixou todas as imagens da capa de album com o mesmo tamanho,
-Reduziu e otimizar os nomes das páginas do projetos,
-Melhorou a Estilização da Página de Conteúdo com Ícones e Fontes.
-Desenvolveu um Novo Painel do Monitor no Estilo de Postagem de Blog,
-Desenvolveu um botão que fica visivel somente ao Monitor/Professor para apagar o conteudo postado da semana e outro botão que permita editar, etc.
+A equipe foi dividida em papéis distintos, cada membro contribuindo para o desenvolvimento do projeto de maneira específica. Abaixo estão detalhadas as responsabilidades e realizações de cada integrante:
 
-Alessandro: Tarefas: Adicionou os Novos Inputs da Página Calendário ao Calendário, 
-Desenvolveu Botão para Envio de Imagem da Capa dos Cards/Configuração
-Adicionou botão Light/Dark na agenda.
-Colocou calendario dentro de um container Bootstrap para responsividade.
-Limpou o codigo da página que desenvolveu, etc.
+Adenilson:
+Alinhou os cards do Painel de Controle.
+Uniformizou o tamanho das imagens da capa do álbum.
+Reduziu e otimizou os nomes das páginas do projeto.
+Aprimorou a estilização da Página de Conteúdo com ícones e fontes.
+Desenvolveu um Novo Painel do Monitor no Estilo de Postagem de Blog.
+Criou botões exclusivos para o Monitor/Professor, permitindo apagar o conteúdo postado semanalmente e editar.
 
-Arthur: Tarefas: Verificação de Responsividade da Tela Desenvolvida, 
-Corrigiu o Botão Voltar na Página dos Conteúdos das Disciplinas,
-Verificou se todas as páginas estão linkadas de forma correta,
-Melhorou e corrigiu o conteúdo das páginas. Exemplo: remover em ajuda informações sobre feedback,
-Corrigiu os nomes e emails das pessoas na pagina de pessoas,
-Corrigiu a pagina de ajuda com um link para os contatos da PUC, etc.
+Alessandro:
+Adicionou os novos inputs da Página Calendário ao Calendário.
+Desenvolveu um botão para o envio de imagens da capa dos cards/configuração.
+Incluiu botões de alternância Light/Dark na agenda.
+Integrado o calendário dentro de um container Bootstrap para garantir responsividade.
+Realizou a limpeza do código da página desenvolvida.
 
-Marlon: Tarefas:  Vinculou no código a imagem do "Fale com a PUC Minas" com o site da PUC Minas Oficial.
-Desenvolveu Página de Caixa de Saída, 
-Desenvolveu Página de Importantes,
-Desenvolveu Página de Lixeira,
-Verificou se todas as páginas estão linkadas de forma correta. E fez a correção.
-Realizou a revisão geral do trabalho. Verificar responsividade, conexões, links, comunicação, github etc
-Supervisionou a equipe com relação as entragas na data marcada, etc.
+Arthur:
+Verificou a responsividade da tela desenvolvida.
+Corrigiu o botão "Voltar" na Página dos Conteúdos das Disciplinas.
+Garantiu que todas as páginas estão linkadas corretamente.
+Melhorou e corrigiu o conteúdo das páginas, removendo informações desnecessárias.
+Corrigiu nomes e e-mails na página de pessoas.
+Adicionou um link na página de ajuda para os contatos da PUC.
 
-Samuel: Tarefas: Desenvolveu botão "Sair" para todas as paginas,
-Colocou ícones na página ajuda em cada opção,
-Verificou a responsividade do Menu lateral das páginas,
-Limpou o codigo das páginas,
-Desenvolveu página do monitor,
-Desenvolveu barra lateral,
-Coordenou a equipe em direção as metas e sprints,
-Foi responsável por corrigir erros, códigos, documentos e tudo que envolve o trabalho em cada sprint.
+Marlon:
+Vinculou no código a imagem "Fale com a PUC Minas" com o site oficial da PUC Minas.
+Desenvolveu páginas de Caixa de Saída, Importantes e Lixeira.
+Garantiu a correta vinculação de todas as páginas.
+Realizou uma revisão geral do trabalho, verificando responsividade, conexões, links, comunicação e GitHub.
+Supervisionou a equipe para as entregas dentro do prazo estabelecido.
 
-
-Em resumo, Cada membro do grupo fez um pouco de tudo em cada sprint (estilização, alinhamento, responsividade, etc). 
+Samuel:
+Desenvolveu o botão "Sair" para todas as páginas.
+Inseriu ícones na página de ajuda para cada opção.
+Verificou a responsividade do Menu Lateral das páginas.
+Realizou a limpeza do código em todas as páginas.
+Desenvolveu a página do monitor, incluindo a barra lateral.
+Coordenou a equipe em direção às metas e sprints.
+Foi responsável por corrigir erros, códigos, documentos e assegurou a qualidade do trabalho em cada sprint.
 
 ## Ferramentas
 
