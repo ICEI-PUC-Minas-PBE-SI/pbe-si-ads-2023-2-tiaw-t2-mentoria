@@ -287,41 +287,37 @@ Em conjunto, essas ferramentas criaram um ambiente de desenvolvimento integrado 
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O controle de versão é uma parte essencial do desenvolvimento de software, e o GitHub emergiu como uma plataforma central nesse processo, oferecendo inúmeras vantagens para desenvolvedores individuais e equipes. Sua importância transcende a simples hospedagem de código, desempenhando um papel fundamental em promover a colaboração, garantir a integridade do código e facilitar o desenvolvimento iterativo. As seguintes funcionalidades foram utilizadas no processo de desenvolvimento do projeto:
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+  1.	Branches:
+•	Master: A branch "master" é utilizada para armazenar versões estáveis e testadas do software. É a versão que está pronta para produção.
+•	Unstable: A branch "unstable" contém versões testadas, mas que ainda podem apresentar instabilidades. É uma etapa intermediária antes da versão estável.
+•	Testing: A branch "testing" é destinada a versões em processo de teste. Aqui, as funcionalidades são agrupadas para verificar sua estabilidade antes de passar para a branch "unstable" ou "master".
+•	Dev: A branch "dev" é a versão de desenvolvimento, onde as novas funcionalidades são integradas e testadas continuamente.
+  2.	Commits:
+•	Cada commit no repositório representa uma alteração específica no código.
+•	Commits são feitos de forma atômica, abordando uma única funcionalidade ou correção por vez.
+•	Mensagens de commit são claras e informativas, seguindo as melhores práticas de commit messages.
+  3.	Merges:
+•	Merges são realizados conforme as funcionalidades são desenvolvidas e testadas com sucesso na branch "dev".
+•	Integrações de branches ocorrem regularmente para evitar conflitos e manter um fluxo contínuo de desenvolvimento.
+•	Merges para branches de teste e instável são realizados apenas após testes completos e aprovação.
+  4.	Tags:
+•	Tags são usadas para marcar versões específicas do software, especialmente aquelas que são lançadas para produção.
+•	Cada tag é nomeada de acordo com a versão correspondente para fácil referência.
 
-# **############## SPRINT 1 ACABA AQUI #############**
+Gerência de Issues: Convenção de Etiquetas
+  1.	Bugfix:
+•	Issues rotuladas como "bugfix" indicam problemas em funcionalidades existentes que precisam ser corrigidos.
+•	A equipe prioriza e aborda esses problemas de forma eficiente, realizando os devidos testes antes de fazer os merges.
+  2.	Enhancement:
+•	Issues rotuladas como "enhancement" indicam áreas de funcionalidades existentes que precisam ser aprimoradas.
+•	As melhorias propostas são discutidas e implementadas na branch de desenvolvimento, passando por testes adequados.
+  3.	Feature:
+•	Issues rotuladas como "feature" representam a introdução de novas funcionalidades.
+•	As novas funcionalidades são desenvolvidas na branch de desenvolvimento ("dev") e integradas de acordo com o fluxo estabelecido.
 
+Essa estrutura e convenção de nomenclatura proporcionam uma organização clara e eficiente no desenvolvimento do software, permitindo uma gestão robusta e controlada do ciclo de vida do projeto, desde o desenvolvimento até a entrega estável em produção. O GitHub, como plataforma de hospedagem, facilita a colaboração entre membros da equipe, o rastreamento de mudanças e o gerenciamento de problemas, tornando o processo mais transparente e eficaz.
 
 # Projeto da Solução
 
