@@ -209,31 +209,14 @@ Por fim, nosso site incluirá uma aba dedicada à inclusão de listas de ativida
 
 # Metodologia
 
-......
+
 A metodologia adotada pelo nosso grupo para o desenvolvimento deste projeto baseou-se nas práticas ágeis, uma abordagem que valoriza a flexibilidade, a colaboração e a entrega contínua. Optamos por utilizar o Scrum, um dos métodos ágeis mais reconhecidos, para guiar nosso processo de trabalho. 
 A metodologia enfatiza a entrega incremental, permitindo que as funcionalidades do projeto sejam desenvolvidas e disponibilizadas em ciclos curtos, conhecidos como sprints. Cada sprint teve uma duração fixa, proporcionando oportunidades frequentes de revisão e adaptação do trabalho realizado. 
 Para facilitar a comunicação e colaboração, utilizamos ferramentas colaborativas, como o discord para comunicação em tempo real e o Trello para gerenciar as tarefas em um formato visual e interativo. Essas ferramentas foram essenciais para manter todos os membros da equipe alinhados com os objetivos e progressos do projeto. 
-......
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ## Divisão de Papéis
 
-...... Adenilson: Tarefas: Alinhou cards do Painel de Controle,
+Adenilson: Tarefas: Alinhou cards do Painel de Controle,
 Deixou todas as imagens da capa de album com o mesmo tamanho,
 Reduziu e otimizar os nomes das páginas do projetos,
 Melhorou a Estilização da Página de Conteúdo com Ícones e Fontes.
@@ -271,14 +254,7 @@ Coordenou a equipe em direção as metas e sprints,
 Foi responsável por corrigir erros, códigos, documentos e tudo que envolve o trabalho em cada sprint.
 
 
-Em resumo, Cada membro do grupo fez um pouco de tudo em cada sprint (estilização, alinhamento, responsividade, etc).  ...... 
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
+Em resumo, Cada membro do grupo fez um pouco de tudo em cada sprint (estilização, alinhamento, responsividade, etc). 
 
 ## Ferramentas
 
