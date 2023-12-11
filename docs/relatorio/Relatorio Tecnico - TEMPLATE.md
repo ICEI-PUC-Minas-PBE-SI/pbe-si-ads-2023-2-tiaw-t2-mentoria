@@ -360,7 +360,7 @@ O jQuery desempenhou um papel essencial no desenvolvimento da página web, propo
 
 Para aprimorar a estilização do site, optou-se por incorporar a biblioteca de ícones do FontAwesome. Essa escolha permitiu enriquecer visualmente o design, proporcionando uma ampla variedade de ícones que foram facilmente integrados às diferentes partes do site. A utilização da biblioteca FontAwesome não apenas aprimorou a estética geral, mas também contribuiu para uma experiência de usuário mais intuitiva e visualmente atraente, enriquecendo a representação gráfica dos elementos presentes na página.
 
-**A seguir, apresentamos as primeiras versões iniciais do site:**
+**A seguir, apresentamos as primeiras versões iniciais do sistema:**
 
 ![Wireframe](images/Wireframe.png)
 
