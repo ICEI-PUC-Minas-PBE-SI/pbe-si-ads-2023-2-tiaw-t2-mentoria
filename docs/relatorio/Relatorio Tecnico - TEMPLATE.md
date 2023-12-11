@@ -378,6 +378,9 @@ Este constitui o primeiro esboço da tela do painel do usuário, onde inicialmen
 
 A partir do esboço mencionado anteriormente, evoluímos para esta interface, utilizando exclusivamente recursos de HTML, CSS e Bootstrap. No entanto, à medida que o projeto avançava, tornou-se evidente a necessidade de aprimorar a interface desenvolvida, buscando um design mais moderno e atualizado.
 
+![Wireframe2](images/Wireframe_2.png)
+
+Finalmente, apresentamos a versão definitiva do projeto, na qual os conceitos foram meticulosamente revisados e refinados. Nessa interface, adotamos uma abordagem mais sóbria e contemporânea. Adicionalmente, em consonância com a visão inicial delineada no primeiro esboço, buscamos a padronização das funcionalidades em um único layout, assegurando a uniformidade do conteúdo em diversas telas. Este processo de aprimoramento teve como objetivo não apenas aprimorar a estética, mas também promover a consistência e a usabilidade em todas as áreas do site.
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
