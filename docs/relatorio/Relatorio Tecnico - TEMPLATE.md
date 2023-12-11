@@ -356,6 +356,10 @@ Vale ressaltar que foi necessário empregar o framework front-end Bootstrap, que
 
 No âmbito deste trabalho, a linguagem de programação JavaScript desempenhou um papel fundamental. Ela permitiu a criação de funções dinâmicas que aprimoraram a experiência do usuário durante a interação com o site. Além disso, por meio do JavaScript, foi possível manipular objetos e elementos, viabilizando o funcionamento de partes específicas do programa. Essa versatilidade e capacidade de interação dinâmica foram elementos-chave na implementação bem-sucedida do projeto.
 
+O jQuery desempenhou um papel essencial no desenvolvimento da página web, proporcionando uma série de funções que auxiliam os programadores a escrever de maneira mais rápida e dinâmica o DOM (Document Object Model), sem a necessidade de criar o código completo em JavaScript. Essa ferramenta simplifica tarefas comuns, oferecendo uma abstração eficaz sobre as complexidades do JavaScript puro, o que resulta em um desenvolvimento mais eficiente e produtivo. Ao utilizar o jQuery, foi possível otimizar o processo de manipulação e interação com os elementos da página, contribuindo para uma experiência de usuário mais fluida e agradável.
+
+Para aprimorar a estilização do site, optou-se por incorporar a biblioteca de ícones do FontAwesome. Essa escolha permitiu enriquecer visualmente o design, proporcionando uma ampla variedade de ícones que foram facilmente integrados às diferentes partes do site. A utilização da biblioteca FontAwesome não apenas aprimorou a estética geral, mas também contribuiu para uma experiência de usuário mais intuitiva e visualmente atraente, enriquecendo a representação gráfica dos elementos presentes na página.
+
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
 > tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
