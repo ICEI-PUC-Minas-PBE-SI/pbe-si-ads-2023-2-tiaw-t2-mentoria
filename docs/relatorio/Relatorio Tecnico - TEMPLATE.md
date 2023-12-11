@@ -204,14 +204,28 @@ Por fim, nosso site incluirá uma aba dedicada à inclusão de listas de ativida
 
 
 ## Wireframes
-
+. Tela: Login.
 ![Login](images/Tela_Login.png)
+
+. Tela: Painel do Aluno.
 ![Painel Aluno](images/Tela_Painel_Aluno.png)
+
+. Tela: Painel do Monitor.
 ![Painel Monitor](images/Tela_Painel_Monitor.png)
+
+. Tela: Conteúdo das Disciplinas.
 ![Disciplinas](images/Tela_Cont.Disciplinas.png)
+
+. Tela: Agendamento.
 ![Calendario](images/Tela_Calendario.png)
+
+. Tela: Mensagens.
 ![Mensagens](images/Tela_Mensagens.png)
+
+. Tela: Ajuda.
 ![Ajuda](images/Tela_Ajuda.png)
+
+. Tela: Configurações.
 ![Configuracao](images/Tela_Configuração.png)
 
 
