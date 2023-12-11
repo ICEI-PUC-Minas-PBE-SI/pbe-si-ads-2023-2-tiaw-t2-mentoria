@@ -348,7 +348,13 @@ Essa estrutura e convenção de nomenclatura proporcionam uma organização clar
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+No decorrer do desenvolvimento deste projeto, tornou-se imprescindível a criação de códigos HTML (Hypertext Markup Language), cuja finalidade é possibilitar que o navegador interprete e exiba as marcações de texto e outros elementos de mídia em uma página web. Essa abordagem visa viabilizar uma interação eficaz do usuário com o conteúdo disponibilizado.
+
+O papel crucial desempenhado pelo desenvolvimento do código CSS (Cascading Style Sheets) concentrou-se na estilização do site, resultando em uma interface de navegação mais atraente e amigável ao usuário. Isso elevou significativamente a experiência de utilização para um nível mais sofisticado e agradável.
+
+Vale ressaltar que foi necessário empregar o framework front-end Bootstrap, que oferece estruturas de CSS para a criação de sites e aplicações responsivas de maneira ágil e simplificada. Este framework contribuiu de maneira significativa para a eficiência e a estética do projeto.
+
+No âmbito deste trabalho, a linguagem de programação JavaScript desempenhou um papel fundamental. Ela permitiu a criação de funções dinâmicas que aprimoraram a experiência do usuário durante a interação com o site. Além disso, por meio do JavaScript, foi possível manipular objetos e elementos, viabilizando o funcionamento de partes específicas do programa. Essa versatilidade e capacidade de interação dinâmica foram elementos-chave na implementação bem-sucedida do projeto.
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
