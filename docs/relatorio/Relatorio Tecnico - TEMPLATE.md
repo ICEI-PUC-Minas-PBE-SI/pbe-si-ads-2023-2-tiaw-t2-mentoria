@@ -382,19 +382,6 @@ A partir do esboço mencionado anteriormente, evoluímos para esta interface, ut
 
 Finalmente, apresentamos a versão definitiva do projeto, na qual os conceitos foram meticulosamente revisados e refinados. Nessa interface, adotamos uma abordagem mais sóbria e contemporânea. Adicionalmente, em consonância com a visão inicial delineada no primeiro esboço, buscamos a padronização das funcionalidades em um único layout, assegurando a uniformidade do conteúdo em diversas telas. Este processo de aprimoramento teve como objetivo não apenas aprimorar a estética, mas também promover a consistência e a usabilidade em todas as áreas do site.
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
-
 ## Arquitetura da solução
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
