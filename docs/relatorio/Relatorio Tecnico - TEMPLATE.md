@@ -205,7 +205,15 @@ Por fim, nosso site incluirá uma aba dedicada à inclusão de listas de ativida
 
 ## Wireframes
 
-![Wireframe](images/Wireframe.png)
+![Login](images/Tela_Login.png)
+![Painel Monitor](images/Tela_Painel_Monitor.png)
+![Disciplinas](images/Tela_Cont.Disciplinas.png)
+![Mensagens](images/Tela_Mensagens.png)
+![Painel Aluno](images/Tela_Painel_Aluno.png)
+![Ajuda](images/Tela_Ajuda.png)
+![Calendario](images/Tela_Calendario.png)
+![Configuracao](images/Tela_Configuração.png)
+
 
 # Metodologia
 
