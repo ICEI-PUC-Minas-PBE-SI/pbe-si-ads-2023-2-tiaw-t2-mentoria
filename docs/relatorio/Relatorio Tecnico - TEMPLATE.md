@@ -204,7 +204,7 @@ Por fim, nosso site incluirá uma aba dedicada à inclusão de listas de ativida
 
 
 ## Wireframes
-** . Tela: Login. **
+. Tela: Login.
 ![Login](images/Tela_Login.png)
 
 . Tela: Painel do Aluno.
