@@ -374,6 +374,9 @@ Para aprimorar a estilização do site, optou-se por incorporar a biblioteca de 
 
 Este constitui o primeiro esboço da tela do painel do usuário, onde inicialmente concebemos a ideia de integrar todas as funcionalidades do site em uma única tela. Entretanto, essa abordagem logo se mostrou inviável devido à complexidade do projeto.
 
+![Wireframe1](images/Wireframe_1.png)
+
+A partir do esboço mencionado anteriormente, evoluímos para esta interface, utilizando exclusivamente recursos de HTML, CSS e Bootstrap. No entanto, à medida que o projeto avançava, tornou-se evidente a necessidade de aprimorar a interface desenvolvida, buscando um design mais moderno e atualizado.
 
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
