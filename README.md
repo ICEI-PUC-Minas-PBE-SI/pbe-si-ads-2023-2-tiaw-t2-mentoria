@@ -1,4 +1,4 @@
-## Sistema Web para o gerenciamento de monitorias da PUC Minas.
+## Sistema Web para Gestão de Monitorias na PUC Minas
 
 ![Logo](docs/relatorio/images/logo_monitoria.png)
 
