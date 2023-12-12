@@ -11,16 +11,11 @@ Os objetivos primordiais englobam a realização de uma pesquisa preliminar para
 Este projeto não apenas busca atender às demandas práticas da gestão da monitoria, mas também pretende contribuir para o enriquecimento da experiência educacional, promovendo uma comunicação eficiente entre monitores e alunos. A implementação dessas melhorias visa, em última instância, aprimorar a qualidade do processo de monitoria e fortalecer os vínculos colaborativos dentro do ambiente acadêmico.
 
 ## 👥 Alunos:
-Adenilson Rodrigues Cordeiro Junior
-
-Arthur Alves Oliveira SIlva
-
-Alessandro Gomes Pereira
-
-Marlon Magalhaes Carvalho
-
-Samuel Correia Nunes
-
+* Adenilson Rodrigues Cordeiro Junior
+* Arthur Alves Oliveira SIlva
+* Alessandro Gomes Pereira
+* Marlon Magalhaes Carvalho
+* Samuel Correia Nunes
 
 ## 👩‍🏫 Orientador:
 Fábio Martins de Oliveira
