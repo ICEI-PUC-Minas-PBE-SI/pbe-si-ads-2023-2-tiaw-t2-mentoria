@@ -352,8 +352,6 @@ Essa estrutura e convenção de nomenclatura proporcionam uma organização clar
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 ## Tecnologias Utilizadas
 
 No decorrer do desenvolvimento deste projeto, tornou-se imprescindível a criação de códigos HTML (Hypertext Markup Language), cuja finalidade é possibilitar que o navegador interprete e exiba as marcações de texto e outros elementos de mídia em uma página web. Essa abordagem visa viabilizar uma interação eficaz do usuário com o conteúdo disponibilizado.
