@@ -21,17 +21,22 @@ Este projeto não apenas busca atender às demandas práticas da gestão da moni
 Fábio Martins de Oliveira
 
 ## 💻 Instruções de utilização
+* Para utilizar nosso sistema não é necessário instalar nenhuma eventual dependência, qualquer navegador consiguirá executar a aplicação.
+Aqui estão as Instruções de utilização do nosso sistema:
+
 1. Registro de Conta:
 Cadastro:
 Acesse a página inicial do site.
 Clique em "Registrar" ou "Criar Conta".
 Preencha o formulário com suas informações.
 Confirme seu e-mail (se necessário) para ativar a conta.
+
 2. Perfil do Usuário:
 Configuração do Perfil:
 Faça login na sua conta.
 Vá para a seção "Perfil" ou "Configurações".
 Complete seu perfil.
+
 3. Encontrar um Mentor ou Mentorado:
 Explore a seção "Calendário".
 Clique na data de sua escolha, digite o nome do mentor e caso o mentor esteja disponível marque uma data.
@@ -56,13 +61,12 @@ Ao clicar nessa seção, você verá toda a sua grade de máterias do semestre a
 Ao clicar na respectiva máteria encontrará conteúdo para estudos grátis.
 
 6. Página de Ajuda:
-  
-8. Recursos Adicionais:
-Fórum ou Comunidade:
-Participe de discussões em fóruns ou comunidades relacionadas à mentoria.
-Compartilhe conhecimento e experiências.
-9. Suporte:
+Página de orientação caso esteja perdido, contém:
+Orientações de contato, Informações para criação de conta, informações sobre perfis, recuperação de senha, entre outros...
+
+7. Suporte:
 Contato de Suporte:
-Em caso de dúvidas ou problemas, contate nossa equipe de suporte através da página de "Ajuda" ou "Suporte".
-Esperamos que estas instruções facilitem a sua jornada de mentoria! Caso tenha mais dúvidas, consulte nossa seção de Perguntas Frequentes (FAQ) ou entre em contato com nosso suporte. Aproveite a experiência de aprendizado e desenvolvimento!
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Em caso de dúvidas ou problemas, contate nossa equipe de suporte através da página de "Ajuda".
+Esperamos que estas instruções facilitem a sua jornada de mentoria! Caso tenha mais dúvidas, entre em contato com nosso suporte. Aproveite a experiência de aprendizado e desenvolvimento!
+
+
