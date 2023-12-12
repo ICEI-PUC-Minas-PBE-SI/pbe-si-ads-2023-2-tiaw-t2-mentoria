@@ -1,7 +1,7 @@
 ## Sistema Web para Gestão de Monitorias na PUC Minas
 
 <p align="center">
-  <a href="url"><img src=".docs/relatorio/images/logo_monitoria.png" height="100" alt="Logo"></a>
+  <a href="url"><img src="docs/relatorio/images/logo_monitoria.png" height="100" alt="Logo"></a>
 </p>
 
 ![Logo](docs/relatorio/images/logo_monitoria.png)
