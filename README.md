@@ -1,7 +1,7 @@
 ## Sistema Web para Gestão de Monitorias na PUC Minas
 
 <p align="center">
-  <a href="url"><img src="docs/relatorio/images/logo_monitoria.png" width="auto" height="auto" alt="Logo">Logo do Projeto</a> 
+  <a href="url"><img src="docs/relatorio/images/logo_monitoria.png" width="auto" height="auto" alt="Logo"></a> 
 </p>
 
 Este projeto acadêmico propõe o desenvolvimento de um software web destinado a otimizar a gestão do processo de monitoria, com especial enfoque na facilitação da comunicação entre monitores e alunos. Os aspectos abordados abrangem desde a seleção do monitor até a definição dos tópicos a serem abordados durante as sessões de monitoria.
