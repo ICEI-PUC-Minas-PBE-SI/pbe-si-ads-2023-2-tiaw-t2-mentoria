@@ -4,8 +4,6 @@
   <a href="url"><img src="docs/relatorio/images/logo_monitoria.png" height="100" alt="Logo"></a>
 </p>
 
-![Logo](docs/relatorio/images/logo_monitoria.png)
-
 Este projeto acadêmico propõe o desenvolvimento de um software web destinado a otimizar a gestão do processo de monitoria, com especial enfoque na facilitação da comunicação entre monitores e alunos. Os aspectos abordados abrangem desde a seleção do monitor até a definição dos tópicos a serem abordados durante as sessões de monitoria.
 
 Os objetivos primordiais englobam a realização de uma pesquisa preliminar para identificar os desafios inerentes à prática da monitoria, a análise meticulosa dos requisitos necessários, a criação de uma aplicação web que permita agendar e gerenciar sessões de monitoria, e a utilização de técnicas de desenvolvimento web visando criar uma interface eficaz e intuitiva. O propósito central é simplificar o processo de monitoria, fomentando uma interação mais fluida entre as partes envolvidas.
