@@ -1,6 +1,6 @@
 # Informações do Projeto 
 
-## SISTEMA WEB PARA GESTÃO DE MONITORIAS NA PUC MINAS
+SISTEMA WEB PARA GESTÃO DE MONITORIAS NA PUC MINAS
 
 Faculdades: Sistemas de Informação e Análise e Desenvolvimento de Sistemas
 
