@@ -450,6 +450,8 @@ Esse diagrama fornece uma representação visual e sequencial das principais fun
 > que fazem parte da solução. Discorra sobre o diagrama.
 > 
 > **Exemplo do diagrama de Arquitetura**:
+> ![Arquitetura](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-mentoria/assets/141644522/3ccd7970-5926-4cfd-8bec-1551db54aa0d)
+
 
 > ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
 
