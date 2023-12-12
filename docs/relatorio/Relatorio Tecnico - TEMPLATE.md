@@ -370,17 +370,18 @@ Para aprimorar a estilização do site, optou-se por incorporar a biblioteca de 
 
 **A seguir, apresentamos as primeiras versões iniciais do sistema:**
 
-![Wireframe](images/Wireframe.png)
-
 Este constitui o primeiro esboço da tela do painel do usuário, onde inicialmente concebemos a ideia de integrar todas as funcionalidades do site em uma única tela. Entretanto, essa abordagem logo se mostrou inviável devido à complexidade do projeto.
 
-![Wireframe1](images/Wireframe_1.jpeg)
+![Wireframe](images/Wireframe.png)
 
 A partir do esboço mencionado anteriormente, evoluímos para esta interface, utilizando exclusivamente recursos de HTML, CSS e Bootstrap. No entanto, à medida que o projeto avançava, tornou-se evidente a necessidade de aprimorar a interface desenvolvida, buscando um design mais moderno e atualizado.
 
-![Wireframe2](images/Wireframe_2.png)
+![Wireframe1](images/Wireframe_1.jpeg)
 
 Finalmente, apresentamos a versão definitiva do projeto, na qual os conceitos foram meticulosamente revisados e refinados. Nessa interface, adotamos uma abordagem mais sóbria e contemporânea. Adicionalmente, em consonância com a visão inicial delineada no primeiro esboço, buscamos a padronização das funcionalidades em um único layout, assegurando a uniformidade do conteúdo em diversas telas. Este processo de aprimoramento teve como objetivo não apenas aprimorar a estética, mas também promover a consistência e a usabilidade em todas as áreas do site.
+
+![Wireframe2](images/Wireframe_2.png)
+
 
 ## Arquitetura da solução
 
