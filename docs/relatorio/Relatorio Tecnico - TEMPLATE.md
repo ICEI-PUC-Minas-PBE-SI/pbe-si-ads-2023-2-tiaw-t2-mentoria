@@ -497,6 +497,7 @@ Esse diagrama fornece uma representação visual e sequencial das principais fun
 
 
 # Referências
+FRISON, L. M. B.. (2016). Monitoria: uma modalidade de ensino que potencializa a aprendizagem colaborativa e autorregulada. Pro-posições, 27(1), 133–153. Acesso em 10 Ago 2023, disponivel em: https://doi.org/10.1590/0103-7307201607908
 
 FLATSCHART, Fábio. HTML 5: embarque imediato. Rio de Janeiro: Brasport, 2011.
 
