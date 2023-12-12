@@ -438,11 +438,16 @@ Finalmente, apresentamos a versão definitiva do projeto, na qual os conceitos f
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+FLATSCHART, Fábio. HTML 5: embarque imediato. Rio de Janeiro: Brasport, 2011.
+MARINHO, Antônio Lopes; CRUZ, J. L. Desenvolvimento de aplicações para internet. São Paulo: Pearson Education do Brasil, 2017.
+MILETTO, Evandro Manara.; BERTAGNOLLI, Silvia de Castro. Desenvolvimento de software II: introdução ao desenvolvimento web com HTML, CSS, JavaScript e PHP. Porto Alegre: Bookman Editora, 2014.
+FLANAGAN, David. JavaScript: o guia definitivo. 6 ed. Porto Alegre: Bookman Editora, 2014.
+OLIVEIRA, Cláudio Luís Vieira; ZANETTI, Humberto Augusto Piovesana. Javascript descomplicado: programação para a Web, Iot e dispositivos móveis. São Paulo: Érica, 2020.
+SEGURADO, Valquiria Santos (org.).  Projeto de interface com o usuário. Editora Pearson, 2017. ISBN 9788543017303.
+TERUEL, Evandro Carlos. HTML 5: guia prático. 2 ed. São Paulo: Érica, 2014.
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+
+
+
+
+
