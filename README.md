@@ -10,7 +10,7 @@ Os objetivos primordiais englobam a realização de uma pesquisa preliminar para
 
 Este projeto não apenas busca atender às demandas práticas da gestão da monitoria, mas também pretende contribuir para o enriquecimento da experiência educacional, promovendo uma comunicação eficiente entre monitores e alunos. A implementação dessas melhorias visa, em última instância, aprimorar a qualidade do processo de monitoria e fortalecer os vínculos colaborativos dentro do ambiente acadêmico.
 
-## Alunos:
+## 👥 Alunos:
 Adenilson Rodrigues Cordeiro Junior
 
 Arthur Alves Oliveira SIlva
@@ -22,8 +22,8 @@ Marlon Magalhaes Carvalho
 Samuel Correia Nunes
 
 
-## Orientador:
+## 👩‍🏫 Orientador:
 Fábio Martins de Oliveira
 
-## Instruções de utilização
+## 💻 Instruções de utilização
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
