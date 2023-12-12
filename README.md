@@ -21,30 +21,30 @@ Este projeto não apenas busca atender às demandas práticas da gestão da moni
 Fábio Martins de Oliveira
 
 ## 💻 Instruções de utilização
-* Para utilizar nosso sistema não é necessário instalar nenhuma eventual dependência, qualquer navegador consiguirá executar a aplicação.
+Para utilizar nosso sistema não é necessário instalar nenhuma eventual dependência, qualquer navegador consiguirá executar a aplicação.
 Aqui estão as Instruções de utilização do nosso sistema:
 
-1. Registro de Conta:
+* Registro de Conta:
 Cadastro:
 Acesse a página inicial do site.
 Clique em "Registrar" ou "Criar Conta".
 Preencha o formulário com suas informações.
 Confirme seu e-mail (se necessário) para ativar a conta.
 
-2. Perfil do Usuário:
+* Perfil do Usuário:
 Configuração do Perfil:
 Faça login na sua conta.
 Vá para a seção "Perfil" ou "Configurações".
 Complete seu perfil.
 
-3. Encontrar um Mentor ou Mentorado:
+* Encontrar um Mentor ou Mentorado:
 Explore a seção "Calendário".
 Clique na data de sua escolha, digite o nome do mentor e caso o mentor esteja disponível marque uma data.
 Salve o "Link da Reunião" para que no dia da mentoria não haja contratempos.
 Utilize as ferramentas de videoconferência ou chat integradas.
 Conecte-se à plataforma no horário agendado.
 
-4. Comunicação por Mensagens:
+* Comunicação por Mensagens:
 Clique em ´´mensagem´´ na lateral.
 Encontre a seção "Mensagens" ou "Caixa de Entrada" na sua conta.
 Aqui, você pode visualizar todas as mensagens recebidas e enviadas.
@@ -54,17 +54,17 @@ Selecione o destinatário da mensagem (monitor).
 Lembre-se de manter a comunicação respeitosa e focada nos objetivos da mentoria. A função de mensagens é uma ferramenta poderosa para facilitar a interação e esclarecer dúvidas entre mentor e mentorado.
 Se precisar de mais orientações ou tiver dúvidas específicas sobre a função de mensagens, não hesite em consultar a seção de Ajuda ou Contato de Suporte.
 
-5. Painel de Controle:
+* Painel de Controle:
 Após fazer login na sua conta, você será direcionado para o painel de controle.
 Navegação para Matérias:
 Ao clicar nessa seção, você verá toda a sua grade de máterias do semestre atual e que possua mentoria no site.
 Ao clicar na respectiva máteria encontrará conteúdo para estudos grátis.
 
-6. Página de Ajuda:
+* Página de Ajuda:
 Página de orientação caso esteja perdido, contém:
 Orientações de contato, Informações para criação de conta, informações sobre perfis, recuperação de senha, entre outros...
 
-7. Suporte:
+* Suporte:
 Contato de Suporte:
 Em caso de dúvidas ou problemas, contate nossa equipe de suporte através da página de "Ajuda".
 Esperamos que estas instruções facilitem a sua jornada de mentoria! Caso tenha mais dúvidas, entre em contato com nosso suporte. Aproveite a experiência de aprendizado e desenvolvimento!
