@@ -383,6 +383,31 @@ Finalmente, apresentamos a versão definitiva do projeto, na qual os conceitos f
 ![Wireframe2](images/Wireframe_2.png)
 
 
+### Especificação das Funcionalidades e Ferramentas:
+
+1. *Página do Aluno:*
+   - *Wireframes:* Desenvolver wireframes para página inicial, visualização de disciplinas, mensagens, e detalhes da disciplina.
+   - *Interação:* Uso de HTML, CSS, Bootstrap para criar páginas responsivas e amigáveis para o usuário. HTML, CSS e Bootstrap para interatividade como navegação entre disciplinas, visualização de vídeos, textos e envio de mensagens.
+
+2. *Página do Monitor:*
+   - *Wireframes:* Desenvolver wireframes para adição de novas disciplinas, upload de conteúdo e interação com alunos.
+   - *Interação:* Utilização de HTML, CSS, Bootstrap e JavaScript para criar uma interface intuitiva para o monitor adicionar disciplinas, conteúdos e interagir com os alunos.
+
+3. *Caixa de Mensagens:*
+   - *Wireframes:* Prototipar a interface de mensagens, incluindo envio, recebimento e listagem de mensagens.
+   - *Interação:* Uso de JavaScript para implementar funcionalidades de mensagens.
+
+4. *Agenda:*
+   - *Wireframes:* Esboçar a estrutura da agenda, exibição de datas importantes, prazos de entrega, etc.
+   - *Interação:* Implementar a lógica para exibir e gerenciar datas importantes utilizando JavaScript.
+
+5. *Tela de Login:*
+   - *Wireframes:* Criar wireframes para a página de login, com campos de usuário e senha.
+   - *Interação:* Desenvolver autenticação com Node.js e Express, armazenando as credenciais no banco de dados e permitindo o acesso diferenciado para alunos e monitores.
+
+Entendi, uma página de ajuda ou um menu lateral pode ser uma adição útil para fornecer informações adicionais e facilitar a navegação para os usuários. Você pode incluir essa funcionalidade no diagrama de fluxo de navegação do usuário da seguinte maneira:
+
+
 ## Arquitetura da solução
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
