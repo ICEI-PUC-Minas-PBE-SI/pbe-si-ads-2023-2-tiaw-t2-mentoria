@@ -368,7 +368,7 @@ O jQuery desempenhou um papel essencial no desenvolvimento da página web, propo
 
 Para aprimorar a estilização do site, optou-se por incorporar a biblioteca de ícones do FontAwesome. Essa escolha permitiu enriquecer visualmente o design, proporcionando uma ampla variedade de ícones que foram facilmente integrados às diferentes partes do site. A utilização da biblioteca FontAwesome não apenas aprimorou a estética geral, mas também contribuiu para uma experiência de usuário mais intuitiva e visualmente atraente, enriquecendo a representação gráfica dos elementos presentes na página.
 
-**A seguir, apresentamos as primeiras versões iniciais do sistema:**
+A seguir, apresentamos as primeiras versões iniciais do sistema:
 
 Este constitui o primeiro esboço da tela do painel do usuário, onde inicialmente concebemos a ideia de integrar todas as funcionalidades do site em uma única tela. Entretanto, essa abordagem logo se mostrou inviável devido à complexidade do projeto.
 
@@ -383,40 +383,76 @@ Finalmente, apresentamos a versão definitiva do projeto, na qual os conceitos f
 ![Wireframe2](images/Wireframe_2.png)
 
 
-### Especificação das Funcionalidades e Ferramentas:
+**Esboço Escrito: Detalhamento das Funcionalidades e Ferramentas no Contexto Acadêmico**
 
 1. *Página do Aluno:*
-   - *Wireframes:* Desenvolver wireframes para página inicial, visualização de disciplinas, mensagens, e detalhes da disciplina.
-   - *Interação:* Uso de HTML, CSS, Bootstrap para criar páginas responsivas e amigáveis para o usuário. HTML, CSS e Bootstrap para interatividade como navegação entre disciplinas, visualização de vídeos, textos e envio de mensagens.
+   - *Wireframes:* Desenvolvimento de esboços para a página inicial, visualização de disciplinas, mensagens e detalhes da disciplina.
+   - *Interação:* Utilização de HTML, CSS e Bootstrap para criar páginas responsivas e amigáveis. Além disso, o uso dessas tecnologias para implementar interatividade, como navegação entre disciplinas, visualização de vídeos, textos e envio de mensagens.
 
 2. *Página do Monitor:*
-   - *Wireframes:* Desenvolver wireframes para adição de novas disciplinas, upload de conteúdo e interação com alunos.
-   - *Interação:* Utilização de HTML, CSS, Bootstrap e JavaScript para criar uma interface intuitiva para o monitor adicionar disciplinas, conteúdos e interagir com os alunos.
+   - *Wireframes:* Desenvolvimento de wireframes para a adição de novas disciplinas, upload de conteúdo e interação com alunos.
+   - *Interação:* Utilização de HTML, CSS, Bootstrap e JavaScript para criar uma interface intuitiva, permitindo ao monitor adicionar disciplinas, conteúdos e interagir com os alunos.
 
 3. *Caixa de Mensagens:*
-   - *Wireframes:* Prototipar a interface de mensagens, incluindo envio, recebimento e listagem de mensagens.
-   - *Interação:* Uso de JavaScript para implementar funcionalidades de mensagens.
+   - *Wireframes:* Prototipagem da interface de mensagens, incluindo envio, recebimento e listagem de mensagens.
+   - *Interação:* Uso de JavaScript para implementar funcionalidades de mensagens, tornando a comunicação entre alunos e monitores eficiente.
 
 4. *Agenda:*
-   - *Wireframes:* Esboçar a estrutura da agenda, exibição de datas importantes, prazos de entrega, etc.
-   - *Interação:* Implementar a lógica para exibir e gerenciar datas importantes utilizando JavaScript.
+   - *Wireframes:* Esboço da estrutura da agenda, exibição de datas importantes, prazos de entrega, etc.
+   - *Interação:* Implementação da lógica para exibir e gerenciar datas importantes usando JavaScript. Isso permitirá que alunos e monitores acompanhem eventos cruciais no contexto acadêmico.
 
 5. *Tela de Login:*
-   - *Wireframes:* Criar wireframes para a página de login, com campos de usuário e senha.
-   - *Interação:* Desenvolver autenticação com Node.js e Express, armazenando as credenciais no banco de dados e permitindo o acesso diferenciado para alunos e monitores.
+   - *Wireframes:* Criação de wireframes para a página de login, destacando campos de usuário e senha.
+   - *Interação:* Desenvolvimento de autenticação com Node.js e Express, garantindo a segurança ao armazenar credenciais no banco de dados. Além disso, a diferenciação de acesso entre alunos e monitores será implementada.
 
-Entendi, uma página de ajuda ou um menu lateral pode ser uma adição útil para fornecer informações adicionais e facilitar a navegação para os usuários. Você pode incluir essa funcionalidade no diagrama de fluxo de navegação do usuário da seguinte maneira:
 
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+1. *Login:*
+   - Aluno ou Monitor acessa a página de login.
+   - Insere credenciais e faz login no sistema.
+
+2. *Página Inicial:*
+   - Após login bem-sucedido, o usuário é redirecionado para a página inicial.
+   - Aluno e Monitor têm opções de navegação diferentes.
+
+3. *Aluno:*
+   - Acesso à página "Minhas Disciplinas".
+   - Visualização das disciplinas disponíveis.
+   - Visualização de conteúdo das disciplinas.
+   - Acesso à caixa de mensagens para interação com o Monitor no menu lateral.
+   - Acesso à página de Ajuda no menu lateral.
+   - Logout no menu lateral.
+
+4. *Monitor:*
+   - Acesso à página "Adicionar Disciplina".
+   - Adição de novas disciplinas ao sistema.
+   - Acesso à caixa de mensagens para interação com os Alunos no menu lateral.
+   - Acesso à página de Ajuda no menu lateral.
+   - Logout.
+
+5. *Mensagens:*
+   - Ambos, Aluno e Monitor, podem acessar a caixa de mensagens.
+   - Enviar mensagens para os destinatários corretos (Monitor para Alunos ou Alunos para Monitor).
+   - Visualizar e responder mensagens recebidas.
+
+6. *Página de Ajuda:*
+   - Informações adicionais sobre o funcionamento do site.
+   - Instruções sobre como usar diferentes funcionalidades.
+   - Links para suporte ou FAQs.
+   - Retorno ao menu principal.
+
+7. *Logout:*
+   - Encerra a sessão do usuário, redirecionando para a página de login.
+  
+Esse diagrama fornece uma representação visual e sequencial das principais funcionalidades do sistema acadêmico, facilitando a compreensão do fluxo de interação entre o usuário e a plataforma.
 
 > Inclua um diagrama da solução e descreva os módulos e as tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
 > 
 > **Exemplo do diagrama de Arquitetura**:
-> 
+
 > ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
 
 
