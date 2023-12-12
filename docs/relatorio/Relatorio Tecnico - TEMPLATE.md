@@ -444,16 +444,14 @@ Finalmente, apresentamos a versão definitiva do projeto, na qual os conceitos f
 7. *Logout:*
    - Encerra a sessão do usuário, redirecionando para a página de login.
   
+   
+  
 Esse diagrama fornece uma representação visual e sequencial das principais funcionalidades do sistema acadêmico, facilitando a compreensão do fluxo de interação entre o usuário e a plataforma.
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
 > **Exemplo do diagrama de Arquitetura**:
-> ![Arquitetura](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-mentoria/assets/141644522/3ccd7970-5926-4cfd-8bec-1551db54aa0d)
 
+![Arquitetura](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-mentoria/assets/141644522/7fd8f32f-84a6-4b30-aab3-5a0e3d22231b)
 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
 
 
 # Avaliação da Aplicação
