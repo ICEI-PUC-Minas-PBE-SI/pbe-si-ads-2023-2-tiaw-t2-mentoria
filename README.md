@@ -50,7 +50,7 @@ Encontre a seção "Mensagens" ou "Caixa de Entrada" na sua conta.
 Aqui, você pode visualizar todas as mensagens recebidas e enviadas.
 Iniciar Conversa:
 Para iniciar uma nova conversa, clique em "Nova Mensagem" e "Enviar Mensagem".
-Selecione o destinatário da mensagem (mentor).
+Selecione o destinatário da mensagem (monitor).
 Lembre-se de manter a comunicação respeitosa e focada nos objetivos da mentoria. A função de mensagens é uma ferramenta poderosa para facilitar a interação e esclarecer dúvidas entre mentor e mentorado.
 Se precisar de mais orientações ou tiver dúvidas específicas sobre a função de mensagens, não hesite em consultar a seção de Ajuda ou Contato de Suporte.
 
