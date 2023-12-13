@@ -465,18 +465,23 @@ Esse diagrama fornece uma representação visual e sequencial das principais fun
 ## Plano de Testes
 
 1. *Teste de Autenticação (Login/Logout):*
+
  *Usuários Envolvidos:* Todos os usuários do sistema.
 
 2. *Teste de Navegação entre Páginas:*
+ 
  *Usuários Envolvidos:* Todos os usuários do sistema.
 
 3. *Teste de Visualização de Disciplinas:*
+
 *Usuários Envolvidos:* Alunos.
 
 4. *Teste de Adição de Nova Disciplina (para Monitores):*
+
 *Usuários Envolvidos:* Monitores.
 
 5. *Teste de Envio e Recebimento de Mensagens:*
+
  *Usuários Envolvidos:* Alunos e Monitores.
  
 
