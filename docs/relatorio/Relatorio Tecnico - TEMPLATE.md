@@ -561,9 +561,7 @@ Verificar se medidas de segurança impedem acesso não autorizado.
 1. Monitorar o tempo de atividade do sistema.
 2. Verificar se o sistema está disponível 99,9% do tempo, excluindo janelas de manutenção planejada. 
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+
 
 ## Plano de Testes
 
