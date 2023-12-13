@@ -49,7 +49,6 @@ Samuel Correia Nunes
   - [Arquitetura da solução](#arquitetura-da-solução)
 - [Avaliação da Aplicação](#avaliação-da-aplicação)
   - [Plano de Testes](#plano-de-testes)
-  - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
   - [Registros de Testes](#registros-de-testes)
 - [Referências](#referências)
 
@@ -489,27 +488,7 @@ Esse diagrama fornece uma representação visual e sequencial das principais fun
 5. *Teste de Envio e Recebimento de Mensagens:*
 
  *Usuários Envolvidos:* Alunos e Monitores.
- 
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-*Ferramentas Utilizadas:* Navegadores, Testes Manuais 
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 ## Registros de Testes
 
@@ -527,12 +506,6 @@ Esse diagrama fornece uma representação visual e sequencial das principais fun
 
 5. *Teste de Envio e Recebimento de Mensagens:*
    - *Funcionalidade Avaliada:* Verificamos se as mensagens são enviadas e recebidas corretamente entre alunos e monitores, e identificamos que ao clicar no botão enviar não temos o retorno esperado, pois não foi desenvolvido o Java Script.
- 
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
 
 
 # Referências
