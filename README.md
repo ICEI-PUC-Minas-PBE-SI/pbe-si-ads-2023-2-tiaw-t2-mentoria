@@ -4,11 +4,9 @@
   <a href="url"><img src="docs/relatorio/images/logo_monitoria.png" width="auto" height="auto" alt="Logo"></a> 
 </p>
 
-Este projeto acadêmico propõe o desenvolvimento de um software web destinado a otimizar a gestão do processo de monitoria, com especial enfoque na facilitação da comunicação entre monitores e alunos. Os aspectos abordados abrangem desde a seleção do monitor até a definição dos tópicos a serem abordados durante as sessões de monitoria.
+Este projeto acadêmico tem como propósito principal desenvolver um software web voltado para otimizar a gestão do processo de monitoria, com especial ênfase na facilitação da comunicação entre monitores e alunos. A abordagem abrange desde a seleção do monitor até a definição dos tópicos a serem explorados durante as sessões de monitoria. Os objetivos fundamentais incluem a realização de uma pesquisa preliminar para identificar os desafios inerentes à prática da monitoria, uma análise detalhada dos requisitos necessários, a criação de uma aplicação web para agendar e gerenciar sessões de monitoria, e a aplicação de técnicas de desenvolvimento web para criar uma interface eficaz e intuitiva. O foco central é simplificar o processo de monitoria, promovendo uma interação mais fluida entre as partes envolvidas.
 
-Os objetivos primordiais englobam a realização de uma pesquisa preliminar para identificar os desafios inerentes à prática da monitoria, a análise meticulosa dos requisitos necessários, a criação de uma aplicação web que permita agendar e gerenciar sessões de monitoria, e a utilização de técnicas de desenvolvimento web visando criar uma interface eficaz e intuitiva. O propósito central é simplificar o processo de monitoria, fomentando uma interação mais fluida entre as partes envolvidas.
-
-Este projeto não apenas busca atender às demandas práticas da gestão da monitoria, mas também pretende contribuir para o enriquecimento da experiência educacional, promovendo uma comunicação eficiente entre monitores e alunos. A implementação dessas melhorias visa, em última instância, aprimorar a qualidade do processo de monitoria e fortalecer os vínculos colaborativos dentro do ambiente acadêmico.
+Além de atender às demandas práticas da gestão da monitoria, este projeto busca contribuir para o enriquecimento da experiência educacional, promovendo uma comunicação eficiente entre monitores e alunos. A implementação dessas melhorias visa, em última instância, aprimorar a qualidade do processo de monitoria e fortalecer os vínculos colaborativos dentro do ambiente acadêmico.
 
 ## 👥 Alunos:
 * Adenilson Rodrigues Cordeiro Junior
@@ -24,15 +22,7 @@ Fábio Martins de Oliveira
 Para utilizar nosso sistema não é necessário instalar nenhuma eventual dependência, qualquer navegador consiguirá executar a aplicação.
 Aqui estão as Instruções de utilização do nosso sistema:
 
-* Registro de Conta:
-Cadastro:
-Acesse a página inicial do site.
-Clique em "Registrar" ou "Criar Conta".
-Preencha o formulário com suas informações.
-Confirme seu e-mail (se necessário) para ativar a conta.
-
 * Perfil do Usuário:
-Configuração do Perfil:
 Faça login na sua conta.
 Vá para a seção "Perfil" ou "Configurações".
 Complete seu perfil.
