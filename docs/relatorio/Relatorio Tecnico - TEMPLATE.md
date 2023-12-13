@@ -93,11 +93,17 @@ O software web de monitorias para instituições educacionais atende a diversos 
 # Especificações do Projeto
 
 ## Personas e Mapas de Empatia
+**Persona(1);**
+
 ![PS_Maria_Gabriela](images/PS_Maria_Gabriela.png)
 ![ME_Maria_Gabriela](images/ME_Maria_Gabriela.png)
 
+**Persona(2);**
+
 ![PS_Mateus_Prado](images/PS_Mateus_Prado.png)
 ![ME_Mateus_Prado](images/ME_Mateus_Prado.png)
+
+**Persona(3);**
 
 ![PS_Rafaela_Santos](images/PS_Rafaela_Santos.png)
 ![ME_Rafaela_Santos](images/ME_Rafaela_Santos.png)
