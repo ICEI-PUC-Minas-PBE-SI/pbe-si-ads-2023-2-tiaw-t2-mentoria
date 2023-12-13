@@ -461,7 +461,105 @@ Esse diagrama fornece uma representação visual e sequencial das principais fun
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ Cadastro de Alunos e Monitores (RF-001):
+
+Cenário: Verificar se o sistema permite o cadastro correto de alunos e monitores.
+Passos:
+Acessar a área de cadastro.
+Preencher os dados obrigatórios de um aluno.
+Preencher os dados obrigatórios de um monitor.
+Salvar os cadastros.
+Verificar se os dados foram corretamente armazenados no banco de dados.
+2. Cadastro de Disciplinas (RF-002):
+
+Cenário: Testar a funcionalidade de cadastro de disciplinas.
+Passos:
+Acessar a área de administração.
+Adicionar uma nova disciplina.
+Verificar se a disciplina está listada corretamente.
+3. Marcação de Horários com Monitores (RF-003):
+
+Cenário: Testar a marcação de horários entre alunos e monitores.
+Passos:
+Acessar a agenda.
+Escolher uma disciplina.
+Selecionar um horário disponível.
+Confirmar a marcação.
+Verificar se o horário está corretamente agendado.
+4. Sistema de Mensagem entre Monitor e Aluno (RF-004):
+
+Cenário: Testar o sistema de mensagens.
+Passos:
+Enviar mensagem do aluno para o monitor.
+Verificar se o monitor recebe a mensagem.
+Responder à mensagem do monitor.
+Confirmar se o aluno recebe a resposta.
+5. Autenticação por Login e Senha (RF-005):
+
+Cenário: Garantir que o sistema permite a entrada apenas com login e senha válidos.
+Passos:
+Acessar a página de login.
+Inserir credenciais corretas.
+Verificar o acesso permitido.
+Inserir credenciais incorretas.
+Verificar a negação de acesso.
+6. Compartilhamento de Recursos e Matérias Complementares (RF-006):
+
+Cenário: Testar a funcionalidade de compartilhamento de recursos.
+Passos:
+Adicionar um recurso.
+Compartilhar o recurso com um aluno.
+Verificar se o aluno tem acesso ao recurso compartilhado.
+7. Encaminhamento para Sites de Feedback (RF-007):
+
+Cenário: Testar o redirecionamento para sites que permitem feedback dos alunos.
+Passos:
+Clicar no link de feedback.
+Verificar se o sistema redireciona corretamente para o site de feedback.
+8. Escalabilidade do Sistema (RNF-001):
+
+Cenário: Avaliar como o sistema se comporta com um aumento significativo no número de usuários.
+Passos:
+Simular o aumento de usuários simultâneos.
+Monitorar o desempenho do sistema.
+Verificar se o sistema continua responsivo e funcional.
+9. Medidas de Segurança (RNF-002):
+
+Cenário: Testar as medidas de segurança implementadas.
+Passos:
+Tentar acessar dados sem autenticação.
+Tentar acessar áreas restritas.
+Verificar se medidas de segurança impedem acesso não autorizado.
+10. Robustez com Múltiplos Usuários (RNF-003):
+- Cenário: Testar a capacidade do sistema de suportar múltiplos usuários simultâneos.
+- Passos:
+1. Simular múltiplos usuários acessando o sistema simultaneamente.
+2. Verificar se o sistema mantém a estabilidade e o desempenho.
+
+11. Responsividade em Dispositivos Móveis (RNF-004):
+- Cenário: Verificar se o sistema é responsivo em dispositivos móveis.
+- Passos:
+1. Acessar o sistema a partir de um dispositivo móvel.
+2. Verificar se a interface se ajusta corretamente.
+
+12. Backup Planejado dos Dados (RNF-005):
+- Cenário: Testar o processo de backup dos dados.
+- Passos:
+1. Iniciar o processo de backup manualmente.
+2. Verificar se os dados são corretamente salvos.
+
+13. Suporte Técnico (RNF-006):
+- Cenário: Avaliar a eficácia do suporte técnico.
+- Passos:
+1. Simular um problema técnico.
+2. Registrar um chamado de suporte.
+3. Verificar o tempo de resposta e resolução.
+
+14. Disponibilidade do Sistema (RNF-007):
+- Cenário: Verificar se o sistema atende ao requisito de disponibilidade.
+- Passos:
+1. Monitorar o tempo de atividade do sistema.
+2. Verificar se o sistema está disponível 99,9% do tempo, excluindo janelas de manutenção planejada. 
 
 > Apresente os cenários de testes utilizados na realização dos testes da
 > sua aplicação. Escolha cenários de testes que demonstrem os requisitos
