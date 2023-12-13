@@ -464,17 +464,21 @@ Esse diagrama fornece uma representação visual e sequencial das principais fun
 
 ## Plano de Testes
 
-......  1. *Teste de Autenticação (Login/Logout):*
+1. *Teste de Autenticação (Login/Logout):*
  *Usuários Envolvidos:* Todos os usuários do sistema.
+
 2. *Teste de Navegação entre Páginas:*
  *Usuários Envolvidos:* Todos os usuários do sistema.
+
 3. *Teste de Visualização de Disciplinas:*
 *Usuários Envolvidos:* Alunos.
+
 4. *Teste de Adição de Nova Disciplina (para Monitores):*
 *Usuários Envolvidos:* Monitores.
+
 5. *Teste de Envio e Recebimento de Mensagens:*
  *Usuários Envolvidos:* Alunos e Monitores.
- ......
+ 
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
@@ -488,7 +492,7 @@ Esse diagrama fornece uma representação visual e sequencial das principais fun
 
 ## Ferramentas de Testes (Opcional)
 
-......  - *Ferramentas Utilizadas:* Navegadores, Testes Manuais .......
+*Ferramentas Utilizadas:* Navegadores, Testes Manuais 
 
 > Comente sobre as ferramentas de testes utilizadas.
 > 
@@ -498,18 +502,21 @@ Esse diagrama fornece uma representação visual e sequencial das principais fun
 
 ## Registros de Testes
 
-......  1. *Teste de Autenticação (Login/Logout):*
+ 1. *Teste de Autenticação (Login/Logout):*
    - *Funcionalidade Avaliada:* Verificamos se o sistema permite que os usuários façam login e logout corretamente. E identificamos que o usuário consegue fazer o login mesmo sem preencher suas credencias, pois o JavaScript ainda não foi desenvolvido para barrar o usuário.
+
 2. *Teste de Navegação entre Páginas:*
    - *Funcionalidade Avaliada:* Identificamos que a navegação entre as diferentes seções do site funciona corretamente.
+
 3. *Teste de Visualização de Disciplinas:*
    - *Funcionalidade Avaliada:* Verificamos que as disciplinas são exibidas corretamente para os alunos.
+
 4. *Teste de Adição de Nova Disciplina (para Monitores):*
    - *Funcionalidade Avaliada:* Testamos que se os monitores conseguem ter acesso a funcionalidade de adicionar novas disciplinas corretamente, na qual é aberto um modal após clicar no botão que permite que o usuário inclua o conteúdo da disciplina que deseja adicionar;
 
 5. *Teste de Envio e Recebimento de Mensagens:*
    - *Funcionalidade Avaliada:* Verificamos se as mensagens são enviadas e recebidas corretamente entre alunos e monitores, e identificamos que ao clicar no botão enviar não temos o retorno esperado, pois não foi desenvolvido o Java Script.
- ......
+ 
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
