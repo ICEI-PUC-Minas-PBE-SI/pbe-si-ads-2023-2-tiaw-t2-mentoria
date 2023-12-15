@@ -60,3 +60,5 @@ Em caso de dúvidas ou problemas, contate nossa equipe de suporte através da p�
 Esperamos que estas instruções facilitem a sua jornada de mentoria! Caso tenha mais dúvidas, entre em contato com nosso suporte. Aproveite a experiência de aprendizado e desenvolvimento!
 
 
+Link: http://bit.ly/PUCMonitoria
+
